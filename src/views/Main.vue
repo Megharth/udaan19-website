@@ -1,27 +1,28 @@
 <template>
     <div id="main">
         <section>
-           <div id="landing">
-               <div class="pin-scene">
-                   <div class="heading"><h1>Some Text</h1></div>
-                   <div class="bg-image"></div>
-                   <!--<div class="demantadors">-->
-                       <!--<div class="demantador">-->
-                           <!--<ul>-->
-                               <!--<li></li>-->
-                               <!--<li></li>-->
-                               <!--<li></li>-->
-                               <!--<li></li>-->
-                           <!--</ul>-->
-                       <!--</div>-->
-                   <!--</div>-->
-               </div>
-           </div>
+            <div id="landing">
+                <div class="pin-scene">
+                    <div class="heading"><h1>Some Text</h1></div>
+                    <div class="bg-image"></div>
+                    <!--<div class="demantadors">-->
+                    <!--<div class="demantador">-->
+                    <!--<ul>-->
+                    <!--<li></li>-->
+                    <!--<li></li>-->
+                    <!--<li></li>-->
+                    <!--<li></li>-->
+                    <!--</ul>-->
+                    <!--</div>-->
+                    <!--</div>-->
+                </div>
+            </div>
         </section>
         <section>
             <div id="about">
+                <aboutComponent class="aboutComponent"></aboutComponent>
                 <div class="particles">
-                   <div class="particle" v-for="n in 50"></div>
+                    <div class="particle" v-for="n in 50"></div>
                 </div>
             </div>
         </section>
@@ -29,9 +30,13 @@
 </template>
 
 <script>
+  import aboutComponent from '../components/aboutComponent'
 
   export default {
     name: "Main",
+    components: {
+      aboutComponent
+    },
     mounted() {
       let t1 = new this.$gsap.TimelineMax()
       t1.from('.bg-image', 0.5, {
@@ -44,7 +49,7 @@
 
       //LANDING COMPONENT SCROLL
       let landingScrollTl = new this.$gsap.TimelineMax().add([
-        TweenMax.to('.heading', 4, {
+        TweenMax.to('#landing .heading', 4, {
           autoAlpha: 0,
           scale: 2,
           y: 100
@@ -68,38 +73,41 @@
         .setPin('.pin-scene')
         .addTo(controller)
 
-    //  ABOUT COMPONENT SCROLL
+      //  ABOUT COMPONENT SCROLL
 
       let aboutScrollTl = new this.$gsap.TimelineMax().add([
         TweenMax.to('.bg-image', 4, {
           autoAlpha: 0
         }),
-        TweenMax.from('#about', 4, {
-          autoAlpha: 0
-        }),
         TweenMax.staggerTo('.particle', 4, {
           cycle: {
-            x: function(i) {
-              if(i%2 === 0)
-                return (Math.random()*(-100) + 1)
+            x: function (i) {
+              if (i % 2 === 0)
+                return (Math.random() * (-100) + 1)
               else
-                return (Math.random()*(100) + 1)
+                return (Math.random() * (100) + 1)
             },
-            y: function(i) {
-              if(i%2 === 0)
-                return (Math.random()*(-100) + 1)
+            y: function (i) {
+              if (i % 2 === 0)
+                return (Math.random() * (-100) + 1)
               else
-                return (Math.random()*(100) + 1)
+                return (Math.random() * (100) + 1)
             },
-            scale: function() {
-              return Math.random()*5
+            scale: function () {
+              return Math.random() * 5
             },
-            backgroundColor: function() {
-              return 'rgba(' + Math.round(Math.random()*255) + ',' + Math.round(Math.random()*255) + ',' + Math.round(Math.random()*255) + ')'
+            backgroundColor: function () {
+              return 'rgba(' + Math.round(Math.random() * 255) + ',' + Math.round(Math.random() * 255) + ',' + Math.round(Math.random() * 255) + ')'
             }
           },
           autoAlpha: 0
-        }, 0.4)
+        }, 0.4),
+        TweenMax.from('#about', 4, {
+          autoAlpha: 0
+        }),
+        TweenMax.from('.aboutComponent', 8, {
+          autoAlpha: 0
+        })
       ])
 
       let scrollAbout = new this.$scrollmagic.Scene({
