@@ -18,6 +18,7 @@
   top: 8px
   left: -7px
   position: relative
+  background: #DBF8F3
 
 .heading
   position: absolute
@@ -26,3 +27,71 @@
   left: 50%
   transform: translateX(-50%)
 
+.demantadors
+  position: absolute
+  height: 50px
+  width: 50px
+  top: 100px
+  right: 20%
+
+.demantador
+  position: absolute
+  animation: move 5s linear forwards
+  ul
+    display: flex
+    align-items: center
+    padding: 0
+    li
+      height: 10px
+      width: 10px
+      position: relative
+      list-style-type: none
+      background: linear-gradient(90deg , #000, #555)
+      border-radius: 50%
+      filter: blur(2px)
+      &:nth-child(1)
+        height: 22px
+        width: 22px
+        filter: blur(1.5px)
+      &:nth-child(2)
+        height: 15px
+        width: 25px
+        left: -5px
+      &:nth-child(3)
+        height: 12px
+        width: 15px
+        left: -11px
+        animation: moveX 0.5s cubic-bezier(0, 0.46, 1, 0.36) infinite alternate
+        animation-delay: 0.2s
+      &:nth-child(4)
+        width: 15px
+        left: -14px
+        filter: blur(3px)
+        animation: moveX 0.5s linear infinite alternate
+
+@keyframes moveX
+  0%
+    transform: translateX(2px)
+  100%
+    transform: translateX(0)
+
+@keyframes moveY
+  0%
+    transform: translateY(2px)
+  100%
+    transform: translateY(0)
+
+
+
+
+.particles
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  .particle
+    height: 20px
+    width: 20px
+    border-radius: 50%
+    background: transparent
+    position: absolute

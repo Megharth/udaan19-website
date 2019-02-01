@@ -5,11 +5,25 @@
                <div class="pin-scene">
                    <div class="heading"><h1>Some Text</h1></div>
                    <div class="bg-image"></div>
+                   <!--<div class="demantadors">-->
+                       <!--<div class="demantador">-->
+                           <!--<ul>-->
+                               <!--<li></li>-->
+                               <!--<li></li>-->
+                               <!--<li></li>-->
+                               <!--<li></li>-->
+                           <!--</ul>-->
+                       <!--</div>-->
+                   <!--</div>-->
                </div>
            </div>
         </section>
         <section>
-            <div id="about"></div>
+            <div id="about">
+                <div class="particles">
+                   <div class="particle" v-for="n in 50"></div>
+                </div>
+            </div>
         </section>
     </div>
 </template>
@@ -37,6 +51,11 @@
         }),
         TweenMax.to('.bg-image', 4, {
           scale: 1.5
+        }),
+        TweenMax.to('.demantador', 4, {
+          x: 100,
+          scale: 0.5,
+          autoAlpha: 0
         })
       ])
 
@@ -54,13 +73,39 @@
       let aboutScrollTl = new this.$gsap.TimelineMax().add([
         TweenMax.to('.bg-image', 4, {
           autoAlpha: 0
-        })
+        }),
+        TweenMax.from('#about', 4, {
+          autoAlpha: 0
+        }),
+        TweenMax.staggerTo('.particle', 4, {
+          cycle: {
+            x: function(i) {
+              if(i%2 === 0)
+                return (Math.random()*(-100) + 1)
+              else
+                return (Math.random()*(100) + 1)
+            },
+            y: function(i) {
+              if(i%2 === 0)
+                return (Math.random()*(-100) + 1)
+              else
+                return (Math.random()*(100) + 1)
+            },
+            scale: function() {
+              return Math.random()*5
+            },
+            backgroundColor: function() {
+              return 'rgba(' + Math.round(Math.random()*255) + ',' + Math.round(Math.random()*255) + ',' + Math.round(Math.random()*255) + ')'
+            }
+          },
+          autoAlpha: 0
+        }, 0.4)
       ])
 
       let scrollAbout = new this.$scrollmagic.Scene({
         triggerHook: 0,
         triggerElement: '#about',
-        duration: '30%'
+        duration: '50%'
       })
         .setTween(aboutScrollTl)
         .setPin('#about')
