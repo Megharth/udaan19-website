@@ -51,13 +51,13 @@
                     <div class="sub-title">Follow us on</div>
                     <div class="social-handles">
                         <a href="">
-                            <img src="../assets/g1284.png" alt="social" class="img-fluid social-icon">
+                            <img src="../assets/youtube.png" alt="social" class="img-fluid social-icon">
                         </a>
                         <a href="">
-                            <img src="../assets/g1294.png" alt="social" class="img-fluid social-icon">
+                            <img src="../assets/instagram.png" alt="social" class="img-fluid social-icon">
                         </a>
                         <a href="">
-                            <img src="../assets/g1300.png" alt="social" class="img-fluid social-icon">
+                            <img src="../assets/facebook.png" alt="social" class="img-fluid social-icon">
                         </a>
                     </div>
                 </div>
