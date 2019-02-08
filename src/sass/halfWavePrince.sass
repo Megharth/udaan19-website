@@ -1,0 +1,93 @@
+#halfWavePrince
+  position: absolute
+  height: 100%
+  width: 100%
+  background: url("https://wallpapers-house.com/data/out/6/wallpaper2you_124331.jpg") no-repeat center center
+  background-size: cover
+
+.left-side
+  position: absolute
+  height: 100%
+  width: 50%
+  .front
+    height: 100%
+    width: 100%
+    z-index: 1
+    position: absolute
+    left: 100%
+    img
+      height: 100vh
+  .back
+    position: absolute
+    height: 100%
+    width: 100%
+    left: 100%
+    img
+      height: 100vh
+.right-side
+  position: absolute
+  height: 100%
+  width: 50%
+  right: 0
+  img
+    height: 100vh
+/*width: 100%*/
+
+
+@mixin stroke-animation ($stroke-dashoffset, $time, $fill)
+  animation: stroke-animation $time cubic-bezier(0,0.23,1,0.1)
+  @keyframes stroke-animation
+    0%
+      opacity: 0
+      fill: none
+      stroke-dashoffset: $stroke-dashoffset
+    30%
+      opacity: 1
+      fill: none
+    90%
+      fill: none
+    100%
+      opacity: 1
+      fill: $fill
+      stroke-dashoffset: 0
+
+
+#snape
+  position: absolute
+  top: 50%
+  left: 25%
+  transform: translate(-25%, -50%)
+  transition: all 0.3s ease-out
+
+  #book path
+    stroke-dasharray: 130
+    @include stroke-animation(130, 3s, transparent)
+    animation-delay: 2.2s
+  #cover-page
+    stroke-dasharray: 130
+    @include stroke-animation(130, 3s, rgb(215, 201, 166))
+    animation-delay: 2.2s
+
+  #snapeBody, #snapeFace, #faceDetails
+    animation: hover 2s linear infinite alternate
+    z-index: 5
+
+
+@keyframes hover
+  0%
+    transform: translateY(0)
+
+  100%
+    transform: translateY(-2px)
+
+@media (min-width: 320px) and (max-width: 540px)
+  .left-side, .right-side
+    width: 100%
+  .left-side
+    .front
+      left: 0
+
+@media (min-height: 360px) and (max-height: 540px)
+  #snape
+    height: 200px
+    left: 15%
