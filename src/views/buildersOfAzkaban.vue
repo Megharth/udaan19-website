@@ -8,6 +8,8 @@
         <div class="eventTitle">
             <div>Events</div>
         </div>
+
+        <div></div>
     </div>
 </template>
 
