@@ -1,10 +1,13 @@
 <template>
     <div id="buidersOfAzkaban">
-        <!--<div class="card" style="width: 18rem;">-->
-            <!--<div id="cardBorder">-->
-                <!--<span id="eventName">event name</span>-->
-            <!--</div>-->
-        <!--</div>-->
+
+        <div class="heading">
+            <p>Welcome to</p>
+            <p>Builders of Azkaban</p>
+        </div>
+        <div class="eventTitle">
+            <div>Events</div>
+        </div>
     </div>
 </template>
 
@@ -15,32 +18,61 @@
 </script>
 
 <style scoped lang="sass">
+@font-face
+    font-family: Magic1
+    src: url("../assets/MagicSchoolOne.ttf")
+    
+@keyframes upText
+    100%
+        transform: translateY(0)
+
+@keyframes scaling1
+    0%
+        transform: scaleY(0)
+    100%
+        transform: scaleY(1)
+
 #buidersOfAzkaban
     position: absolute
     width: 100%
     height: 100%
-    background: url("../assets/Azkaban_concept_art.png") no-repeat center center
+    background: url("../assets/Azkaban_concept_art.png") no-repeat center top
     background-size: cover
-/*.card*/
-    /*top: 25%*/
-    /*left: 20%*/
-    /*width: 50%*/
-    /*height: 50%*/
-    /*background: #F6E277*/
-    /*opacity: 0.7*/
-    /*margin: 0 0*/
-/*#cardBorder*/
-    /*position: absolute*/
-    /*top: 5%*/
-    /*left: 4%*/
-    /*width: 90%*/
-    /*height: 90%*/
-    /*border: black 3px solid*/
-    /*text-align: center*/
-/*#eventName*/
-    /*position: relative*/
-    /*top: 40%*/
-    /*text-transform: uppercase*/
-    /*font-weight: 700*/
-    /*font-size: 1.4rem*/
+
+.heading
+    font-family: Magic1
+    font-size: 5rem
+    overflow: hidden
+    letter-spacing: 3px
+    color: white
+    left: 50%
+    top: 50%
+    margin: 0
+    position: absolute
+    transform: translate(-50%,-50%)
+    text-align: center
+
+.heading p
+    margin: 0
+    transform: scaleY(0)
+    animation: scaling1 2.33s 2 alternate ease-out
+
+.eventTitle
+    font-family: Magic1
+    font-size: 3.5rem
+    overflow: hidden
+    letter-spacing: 3px
+    color: white
+    left: 50%
+    top: 20%
+    position: absolute
+    text-align: center
+    transform: translate(-50%,-50%)
+
+.eventTitle div
+    margin: 0
+    transform: translateY(10rem)
+    animation: upText 1s 4s forwards ease-out
+
+
 </style>
