@@ -1,0 +1,91 @@
+#gobletOfEntertainment
+  position: absolute
+  height: 100%
+  width: 100%
+  //background: url("https://images.ctfassets.net/bxd3o8b291gf/4F8E2n5kesI4i6ciiKGIqa/47cb4600246e68b9afd3e3e49c10e97b/GobletOfFire_WB_F4_GobletSurroundedByAgeLine_Illust_100615_Land.jpg?w=1200") no-repeat bottom center
+  //background-size: cover
+
+
+.goblet
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  img
+    max-height: 500px
+
+
+.flame
+  width: 4em
+  height: 4em
+  font-size: 24px
+  position: absolute
+  top: 1%
+  left: 52%
+  z-index: -1
+  transform: translate(-50%, -50%)
+  span
+    position: absolute
+    width: 4em
+    height: 4em
+    background: radial-gradient( #3d84ff 70%, rgba(255, 255, 255, .8))
+    border-radius: 50%
+    bottom: 0
+    left: calc((var(--n) - 1) * 5em / var(--particles))
+    mix-blend-mode: screen
+    animation: rise 1s ease-in infinite
+    animation-delay: calc(var(--rnd) * 1s)
+
+
+@keyframes rise
+  from
+    transform: translateY(0) scale(1)
+    filter: opacity(0)
+
+  25%
+    filter: opacity(1)
+
+  to
+    transform: translateY(-10em) scale(0)
+    filter: opacity(0)
+
+.events
+  position: absolute
+  height: 50%
+  width: 70%
+  left: 50%
+  top: 50%
+  text-align: center
+  transform: translate(-50%, -50%)
+  transition: all 0.2s linear
+  .event
+    margin: 40px
+    display: inline-block
+    background: black
+    position: relative
+    height: 150px
+    width: 250px
+    opacity: 1
+    //top: 50%
+    //left: 50%
+    //z-index: -1
+    //opacity: 0
+    color: transparent
+    //transform: translate(-50%, -50%)
+    transition: all 0.2s linear
+    &:hover
+      z-index: 2 !important
+      background: black
+@media (min-width: 320px) and (max-width: 540px)
+  .flame
+    height: 2em
+    width: 2em
+    span
+      height: 2em
+      width: 2em
+  .events
+    width: 100%
+    .event
+      margin: 25px
+      height: 80px !important
+      width: 100px !important
