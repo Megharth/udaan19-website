@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "75673e5ff5e07bee6c13b0f60fd694b2",
-    "url": "/fonts/dum1.75673e5f.ttf"
+    "revision": "1c61919a868476117a3c425b8ee82e3b",
+    "url": "/img/background.1c61919a.jpg"
   },
   {
     "revision": "735ab4f94fbcd57074377afca324c813",
@@ -12,11 +12,11 @@ self.__precacheManifest = [
     "url": "/js/chunk-vendors.86ed6ce7.js"
   },
   {
-    "revision": "75f7ce7cb558729ce66b",
-    "url": "/js/app.c2ac0b5d.js"
+    "revision": "c3b8d3e2b8da49d6eccb",
+    "url": "/js/app.13b9e85a.js"
   },
   {
-    "revision": "5fbc441ad0e783bf4b085a10f996c6bd",
+    "revision": "90111a53a35401492c9edfa8f18c9f35",
     "url": "/index.html"
   },
   {
@@ -28,10 +28,6 @@ self.__precacheManifest = [
     "url": "/img/instagram.d98f58da.png"
   },
   {
-    "revision": "1c61919a868476117a3c425b8ee82e3b",
-    "url": "/img/background.1c61919a.jpg"
-  },
-  {
     "revision": "de2fa53b146ccc47bf1b93115f6b36f2",
     "url": "/fonts/muggleNews.de2fa53b.ttf"
   },
@@ -40,11 +36,15 @@ self.__precacheManifest = [
     "url": "/fonts/headlineOne.1db8c3a8.TTF"
   },
   {
+    "revision": "75673e5ff5e07bee6c13b0f60fd694b2",
+    "url": "/fonts/dum1.75673e5f.ttf"
+  },
+  {
     "revision": "13b93a56e46bc078b56c",
     "url": "/css/chunk-vendors.3259982a.css"
   },
   {
-    "revision": "75f7ce7cb558729ce66b",
-    "url": "/css/app.25b50079.css"
+    "revision": "c3b8d3e2b8da49d6eccb",
+    "url": "/css/app.c56e6a55.css"
   }
 ];

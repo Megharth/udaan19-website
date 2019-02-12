@@ -3,6 +3,22 @@
         <section>
             <div id="landing">
                 <div class="pin-scene">
+                    <div class="bird-container bird-container--one">
+                        <div class="bird bird--one"></div>
+                    </div>
+
+                    <div class="bird-container bird-container--two">
+                        <div class="bird bird--two"></div>
+                    </div>
+
+                    <div class="bird-container bird-container--three">
+                        <div class="bird bird--three"></div>
+                    </div>
+
+                    <div class="bird-container bird-container--four">
+                        <div class="bird bird--four"></div>
+                    </div>
+
                     <div class="bg-image"></div>
                     <div class="udaan-logo">
                         <img src="../assets/logo.png" alt="udaanLogo" class="img-fluid">
@@ -198,7 +214,7 @@
 
     .coming-soon
         position: absolute
-        top: 30px
+        top: 50px
         left: 50%
         z-index: 3
         transform: translateX(-50%)
