@@ -1,21 +1,35 @@
 <template>
     <div id="buidersOfAzkaban">
-
+        <div class="rain"></div>
         <div class="heading">
-            <p>Welcome to</p>
-            <p>Builders of Azkaban</p>
+            <p>Welcome to <br>Builders of Azkaban</p>
         </div>
         <div class="eventTitle">
             <div>Events</div>
         </div>
-
-        <div></div>
+        <div class="eventNames">
+            <p>
+                <a href="#">Event 1</a>
+                <a href="#">Event 2</a><br>
+                <a href="#">Event 3</a>
+                <a href="#">Event 4</a>
+            </p>
+        </div>
+        <b-modal id="modal1" title="Bootstrap-Vue">
+            <p class="my-4">Hello from modal!</p>
+        </b-modal>
     </div>
+
 </template>
 
 <script>
     export default {
-        name: "buildersOfAzkaban"
+        name: "buildersOfAzkaban",
+        mounted() {
+            let tl = new this.$gsap.TimelineMax()
+
+
+        }
     }
 </script>
 
@@ -23,7 +37,15 @@
 @font-face
     font-family: Magic1
     src: url("../assets/MagicSchoolOne.ttf")
-    
+
+@font-face
+    font-family: lumos
+    src: url("../assets/LUMOS.TTF")
+
+@font-face
+    font-family: dum
+    src: url("../assets/dum1/dum1ital.ttf")
+
 @keyframes upText
     100%
         transform: translateY(0)
@@ -34,6 +56,30 @@
     100%
         transform: scaleY(1)
 
+@keyframes rain
+    0%
+        background-position: 0% 0%
+    100%
+        background-position: 10% 100%
+
+@keyframes light
+    0%
+        opacity: 0
+    10%
+        opacity: 0
+    11%
+        opacity: 0.5
+    14%
+        opacity: 0
+    20%
+        opacity: 0
+    21%
+        opacity: 0.5
+    24%
+        opacity: 0
+    100%
+        opacity: 0
+
 #buidersOfAzkaban
     position: absolute
     width: 100%
@@ -41,16 +87,32 @@
     background: url("../assets/Azkaban_concept_art.png") no-repeat center top
     background-size: cover
 
+.rain
+    height: 100%
+    background-image: url("../assets/rain.png")
+    animation: rain .3s linear infinite
+
+.rain:before
+    content: ''
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background-color: #f8f8f8
+    animation: light 4s linear infinite
+    opacity: 0
+
 .heading
+    position: absolute
     font-family: Magic1
-    font-size: 5rem
+    font-size: 4.5rem
     overflow: hidden
     letter-spacing: 3px
     color: white
     left: 50%
     top: 50%
     margin: 0
-    position: absolute
     transform: translate(-50%,-50%)
     text-align: center
 
@@ -60,6 +122,7 @@
     animation: scaling1 2.33s 2 alternate ease-out
 
 .eventTitle
+    position: absolute
     font-family: Magic1
     font-size: 3.5rem
     overflow: hidden
@@ -67,7 +130,6 @@
     color: white
     left: 50%
     top: 20%
-    position: absolute
     text-align: center
     transform: translate(-50%,-50%)
 
@@ -76,5 +138,33 @@
     transform: translateY(10rem)
     animation: upText 1s 4s forwards ease-out
 
+.eventNames
+    position: absolute
+    font-family: dum
+    font-size: 2rem
+    overflow: hidden
+    letter-spacing: 2px
+    color: white
+    text-align: center
+    transform: translate(-50%,50%)
+    left: 50%
+    top: 20%
 
+.eventNames p a
+    color: white
+    font-family: Magic1
+
+.eventNames p
+    margin: 0
+    transform: translateY(13rem)
+    animation: upText 1s 4.5s forwards ease-out
+
+@media only screen and (max-width: 768px)
+    .heading p
+        font-size: 3rem
+    .eventNames a
+        display: block
+        margin: 0
+    .eventNames br
+        display: none
 </style>
