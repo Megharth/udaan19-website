@@ -2,7 +2,9 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Main from './views/Main'
 import halfWavePrince from './views/halfWavePrince'
-import gobletOfWorkshops from './views/gobletOfWorkshops'
+// import gobletOfWorkshops from './views/gobletOfWorkshops'
+import madHollows from './views/madHollows'
+
 Vue.use(Router)
 
 export default new Router({
@@ -17,10 +19,15 @@ export default new Router({
       name: 'halfWavePrince',
       component: halfWavePrince
     },
-    {
+    /*{
       path: '/gobletOfWorkshops',
       name: 'gobletOfWorkshops',
       component: gobletOfWorkshops
+    },*/
+    {
+      path: '/madHollows',
+      name: 'madHollows',
+      component: madHollows
     }
   ]
 })
