@@ -21,27 +21,27 @@
                                     id="g1201"
                                     transform="matrix(-1,0,0,1,496.79652,0)">
                                 <g
-                                    id="book">
+                                        id="book">
                                     <path
                                             inkscape:connector-curvature="0"
                                             id="path939"
                                             d="m 220.43952,136.91465 c 0,0 -3.94223,-0.70158 -3.97564,-1.10249 -0.0334,-0.4009 -1.1693,5.54585 -1.1693,5.54585 0,0 1.33635,1.33634 1.60361,1.20271 0.26728,-0.13364 0.63477,-0.46772 0.93545,-0.16705 0.30068,0.30068 0.43431,0.80181 0.43431,0.80181 0,0 -3.30746,-0.33408 -3.4745,-0.63476 -0.16704,-0.30068 -0.56795,-0.41761 -0.56795,-0.41761 l -0.0835,1.58691 -5.45188,4.44185 c 0,0 11.1503,1.27567 12.61496,1.37016 1.46465,0.0945 21.4029,-1.88988 21.4029,-1.88988 0,0 1.41741,-0.18899 1.41741,0.14174 0,0.33073 -1.27567,1.41741 -0.37798,1.79539 0.8977,0.37797 2.36235,1.08668 4.72471,0.99219 2.36235,-0.0945 7.65401,0.33072 7.46503,-0.85045 -0.18899,-1.18118 -1.03944,-2.12612 -1.03944,-2.12612 0,0 23.0093,1.51191 25.65513,1.98438 2.64584,0.47247 3.92151,1.18117 4.44123,0.42522 0.51971,-0.75595 2.2206,-4.58296 2.2206,-4.58296 0,0 -4.6302,-5.10268 -4.7247,-6.04762 -0.0945,-0.94494 0.94494,-1.70089 0.99219,-1.98437 0.0472,-0.28349 -0.18899,-0.94494 -0.18899,-0.94494 l -0.1004,-0.25396"
-                                            style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" > </path>
+                                            style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"></path>
                                     <path
                                             inkscape:connector-curvature="0"
                                             id="path945"
                                             d="m 225.04992,143.46275 c 0,0 10.95805,-0.13363 11.35895,-0.60135"
-                                            style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" > </path>
+                                            style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"></path>
                                     <path
                                             inkscape:connector-curvature="0"
                                             id="path947"
                                             d="m 226.5199,144.36479 c 13.26325,-1.00226 12.19417,-0.70158 13.26325,-1.00226"
-                                            style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" > </path>
+                                            style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"></path>
                                     <path
                                             inkscape:connector-curvature="0"
                                             id="path949"
                                             d="m 226.5199,146.20226 c 0,0 16.57071,-1.9377 18.50841,-1.33634 1.93771,0.60136 2.47225,1.20271 2.47225,1.20271"
-                                            style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" > </path>
+                                            style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"></path>
                                     <path
                                             inkscape:connector-curvature="0"
                                             id="path951"
@@ -138,7 +138,7 @@
                                         d="m 250.34738,75.175222 c 0,0 -0.37798,0.259858 -0.25986,0.377976 0.11812,0.118118 -0.35435,-0.118118 -0.35435,-0.118118 l -0.11812,0.307104 h -0.16536 l -0.0236,0.330729 -0.0236,0.283483 -0.47247,-0.14174 -0.0236,0.330729 -0.96856,0.09449 -0.35435,-0.4016 -0.16537,-0.708705 -2.90569,-1.015809 c 0,0 -1.70089,-1.748142 -1.46466,-2.645834 0.23624,-0.897694 1.32292,-0.330729 1.32292,-0.330729 l 0.37797,-0.425225 0.29896,-0.0081 0.10023,-0.618059 0.33408,-0.167045 0.16704,-0.868627 -0.33408,-0.167042 7.9e-4,-1.525664 0.61421,-0.425222 -0.42522,-0.755952 h 0.75595 l -0.94494,-0.283483 c 0,0 1.08668,0.188987 1.22843,-0.09449 0.14173,-0.283482 -1.08669,-0.330729 -1.08669,-0.330729 l 1.18118,-0.330729 c 0,0 1.55915,0.425222 1.55915,0.944938 0,0.519718 0.75595,-0.04725 0.75595,-0.04725 0,0 0.0472,-1.039434 -0.37797,-0.992187 -0.42523,0.04725 1.22842,-0.283483 1.22842,-0.803198 0,-0.519719 0.0945,-0.708705 0.56696,-0.425223 0.47247,0.28348 0.66146,0.944938 0.66146,0.944938 0,0 0.49609,-0.212611 0.25986,-0.874069 -0.23623,-0.661459 -0.87407,-1.55915 -1.55915,-1.228421 -0.68508,0.330729 -0.92132,0.401598 -1.06306,0.14174 -0.14174,-0.259858 -0.14174,-1.464657 -0.14174,-1.464657 l 1.46462,-0.732335 c 0,0 -0.77958,-0.307107 -0.68508,-1.157552 0.0945,-0.850447 0.3071,-1.582774 1.06305,-1.606399 0.75596,-0.02363 1.93713,0.354354 2.07887,0.779577 0.14174,0.425222 1.0835,4.620294 1.4844,4.586885 0.40091,-0.03341 -2.50565,-0.05012 -2.50565,-0.05012 l -0.0334,1.820775 0.36958,0.233413 -0.23624,0.283483 c 0,0 0.77958,0.803201 0.99219,0.755951 0.21261,-0.04725 -1.12553,0.01339 -1.10882,-0.103542 0.0167,-0.116932 0.44736,0.977614 0.80172,1.001236 0.35435,0.02363 -0.44885,0.18899 -0.44885,0.18899 l 0.75595,0.188986 0.0709,0.708705 0.16537,-0.04725 0.14174,0.472471 0.25986,-0.425225 0.28348,0.566965 0.25986,-0.236236 c 0,0 0.3071,0.944941 0.14174,1.086684 -0.16537,0.14174 -0.54334,0.14174 -0.54334,0.14174 l 0.13282,0.762876 0.30068,0.801809 -0.4009,0.167044 0.20363,1.315705 c 0,0 -0.94494,1.417409 -1.22842,1.322916 -0.28348,-0.09449 0.39002,0.351457 0.39002,0.351457 l -0.63476,0.05011 c 0,0 -0.48443,0.618061 -0.46772,0.818512 0.0167,0.200454 -0.10023,-0.08352 -0.10023,-0.08352 l -0.15034,-0.06682 -0.0501,-0.200451 -0.48443,0.0167 -0.0668,-0.283972 z"
                                         style="fill:#dccdac;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"></path>
                                 <g
-                                    id="faceDetails">
+                                        id="faceDetails">
                                     <path
                                             inkscape:connector-curvature="0"
                                             id="path836"
@@ -164,17 +164,74 @@
                         </g>
                     </svg>
                 </div>
-            </div>
-            <div class="right-side">
+                <div class="back page-2 page-2-left">
+                    <img src="../assets/page.png" alt="book cover" class="img-fluid">
+                </div>
+                </div>
+            <div class="right-side" id="right-side">
                 <img src="../assets/halfWavePrince.png" alt="halfWavePrince" class="img-fluid">
+                <div class="events">
+                    <div class="event" v-for="event in deptEvents" @click="showDetails(event)">
+                        {{event.eventName}}
+                    </div>
+                </div>
             </div>
+            <div class="right-side page-2 page-2-right">
+                <img src="../assets/page.png" alt="halfWavePrince" class="img-fluid">
+                <div class="eventDescription" v-if="event">
+                    <div class="eventName">{{ event.eventName }}</div>
+                    <div class="tagline">{{event.tagline}}</div>
+                    <div class="rounds">
+                        <div class="round" v-for="(round, index) in event.rounds"><span class="round-indice">Round {{index + 1}}: </span>{{round}}</div>
+                    </div>
+                    <div class="managers">
+                        <div class="manager" v-for="manager in event.managers">
+                            <div class="name">{{manager.name}}</div>
+                            <div class="contact">{{manager.phone}}</div>
+                        </div>
+                    </div>
+                    <div class="back" @click="t2.reverse()">Back</div>
+                </div>
+            </div>
+            <!--EVENTS PAGE-->
+            <!--<div id="eventPage">-->
+                <!--<div class="left-side">-->
+                    <!--<img src="../assets/page.png" alt="book cover" class="img-fluid">-->
+                <!--</div>-->
+                <!--<div class="right-side">-->
+                    <!--<img src="../assets/page.png" alt="book cover" class="img-fluid">-->
+                <!--</div>-->
+            <!--</div>-->
         </div>
     </div>
 </template>
 
 <script>
+  import events from "../events"
+
   export default {
     name: "halfWavePrince",
+    data() {
+      return {
+        events,
+        deptEvents: [],
+        event: null,
+        t2: null
+      }
+    },
+    methods: {
+      showDetails(event) {
+        this.event = event
+        this.t2.play()
+      }
+    },
+    created() {
+      let self = this
+      this.events.forEach(function(event) {
+        if(event.department === "ecel")
+          self.deptEvents.push(event)
+      })
+    },
     mounted() {
       let t1 = new this.$gsap.TimelineMax()
       t1.to('.left-side .front, .left-side .back', 4, {
@@ -188,13 +245,26 @@
         autoAlpha: 0
       }, "-=3")
 
-
+      this.t2 = new this.$gsap.TimelineMax({
+        paused: true
+      })
+      this.t2.to('#right-side', 1, {
+        rotationY: 180,
+        transformOrigin: 'left top',
+        autoAlpha: 0
+      })
+      this.t2.from('.page-2-left', 0.1, {
+        autoAlpha: 0
+      }, "-=0.6")
+      this.t2.from('.page-2-right', 0.1, {
+        autoAlpha: 0
+      }, "-=1")
 
     }
   }
 </script>
 
 <style scoped lang="sass">
-@import ../sass/halfWavePrince
+    @import ../sass/halfWavePrince
 
 </style>
