@@ -2,7 +2,7 @@
   position: absolute
   height: 100%
   width: 100%
-  //background: url("https://images.ctfassets.net/bxd3o8b291gf/4F8E2n5kesI4i6ciiKGIqa/47cb4600246e68b9afd3e3e49c10e97b/GobletOfFire_WB_F4_GobletSurroundedByAgeLine_Illust_100615_Land.jpg?w=1200") no-repeat bottom center
+  //background: url("https://images8.alphacoders.com/705/thumb-1920-705966.jpg") no-repeat bottom center
   //background-size: cover
 
 
@@ -61,21 +61,19 @@
   .event
     margin: 40px
     display: inline-block
-    background: black
+    background: url("../assets/page.png") no-repeat center center
+    background-size: cover
     position: relative
     height: 150px
     width: 250px
     opacity: 1
-    //top: 50%
-    //left: 50%
-    //z-index: -1
-    //opacity: 0
-    color: transparent
-    //transform: translate(-50%, -50%)
+    font-size: 48px
+    color: black
+    font-family: halfBloodPrince, sans-serif
     transition: all 0.2s linear
     &:hover
       z-index: 2 !important
-      background: black
+      transform: scaleX(1.2) rotate(0deg) !important
 @media (min-width: 320px) and (max-width: 540px)
   .flame
     height: 2em
@@ -87,5 +85,6 @@
     width: 100%
     .event
       margin: 25px
+      font-size: 20px
       height: 80px !important
       width: 100px !important

@@ -20,8 +20,13 @@
 </template>
 
 <script>
+    import events from '../events'
+
   export default {
     name: "gobletOfEntertainment",
+    created() {
+
+    },
     mounted() {
       let t1 = new this.$gsap.TimelineMax()
       t1.staggerFrom('.event', 2, {
@@ -42,6 +47,6 @@
 </script>
 
 <style scoped lang="sass">
-@import ../sass/gobletOfEntertainment
+@import "../sass/gobletOfWorkshops"
 
 </style>
