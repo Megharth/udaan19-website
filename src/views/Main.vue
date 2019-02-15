@@ -34,18 +34,18 @@
                     <!--</ul>-->
                     <!--</div>-->
                     <!--</div>-->
-                    <div class="coming-soon">Coming soon</div>
+                    <!--<div class="coming-soon">Coming soon</div>-->
                 </div>
             </div>
         </section>
-        <!--<section>-->
-            <!--<div id="about">-->
-                <!--<aboutComponent class="aboutComponent"></aboutComponent>-->
-                <!--<div class="particles">-->
-                    <!--<div class="particle" v-for="n in 50"></div>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</section>-->
+        <section>
+            <div id="about">
+                <aboutComponent class="aboutComponent"></aboutComponent>
+                <div class="particles">
+                    <div class="particle" v-for="n in 50"></div>
+                </div>
+            </div>
+        </section>
     </div>
 </template>
 
@@ -61,7 +61,7 @@
 
       //    COMING SOON ANIMATION
 
-      let t2 = new this.$gsap.TimelineMax({
+      /*let t2 = new this.$gsap.TimelineMax({
         repeat: -1,
         yoyo: true
       })
@@ -90,7 +90,7 @@
         scale: 1,
         y: 0
       }, 0.1, 0)
-
+*/
 
 
       //LANDING COMPONENT ANIMATIONS
@@ -136,7 +136,7 @@
 
       //  ABOUT COMPONENT SCROLL
 
-      /*let aboutScrollTl = new this.$gsap.TimelineMax().add([
+      let aboutScrollTl = new this.$gsap.TimelineMax().add([
         TweenMax.to('.bg-image', 4, {
           autoAlpha: 0
         }),
@@ -195,7 +195,7 @@
       })
         .setTween(aboutScrollTl)
         .setPin('#about')
-        .addTo(controller)*/
+        .addTo(controller)
 
 
 
