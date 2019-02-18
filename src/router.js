@@ -5,6 +5,7 @@ import builderOfAzkaban from './views/buildersOfAzkaban'
 import halfWavePrince from './views/halfWavePrince'
 // import gobletOfWorkshops from './views/gobletOfWorkshops'
 import madHollows from './views/madHollows'
+import automotivePhilosophers from './views/automotivePhilosophers'
 
 Vue.use(Router)
 
@@ -34,6 +35,11 @@ export default new Router({
       path: '/madHollows',
       name: 'madHollows',
       component: madHollows
+    },
+    {
+      path: '/automotivePhilosophers',
+      name: 'automotivePhilosophers',
+      component: automotivePhilosophers
     }
   ]
 })
