@@ -1,5 +1,6 @@
 <template>
     <div id="automotivePhilosophers">
+        <img src="../assets/station.png" alt="" class="bgImage">
         <div class="events">
             <div class="event" v-for="event in deptEvents" @click="eventsDetail = event">
                 <span>{{event.eventName}}</span>
@@ -47,6 +48,15 @@
           self.deptEvents.push(event)
       })
       console.log(this.deptEvents)
+    },
+    mounted() {
+      let tl = new this.$gsap.TimelineMax()
+      tl.from('.bgImage', 0.5, {
+        scale: 1.5
+      })
+      tl.staggerFrom('.event', 0.5, {
+        y: 1000
+      }, 0.1)
     }
   }
 </script>
