@@ -197,22 +197,17 @@
         .setPin('#about')
         .addTo(controller)
 
-
-
     }
   }
 </script>
 
 <style scoped lang="sass">
     @import ../sass/main
-    #main
-        overflow: hidden
-
     @font-face
         font-family: 'dumbledore'
         src: url("../assets/dum1.ttf")
 
-    .coming-soon
+    /*.coming-soon
         position: absolute
         top: 50px
         left: 50%
@@ -223,5 +218,5 @@
         font-family: dumbledore, sans-serif
         font-size: 72px
         .letter
-            display: inline-block !important
+            display: inline-block !important*/
 </style>
