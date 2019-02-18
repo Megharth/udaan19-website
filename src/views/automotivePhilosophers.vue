@@ -32,7 +32,7 @@
   import events from '../events'
 
   export default {
-    name: "automativePhilosophers",
+    name: "automotivePhilosophers",
     data() {
       return {
         events,
