@@ -44,7 +44,7 @@
 
 @font-face
     font-family: dum
-    src: url("../assets/dum1/dum1ital.ttf")
+    src: url("../assets/dum1ital.ttf")
 
 @keyframes upText
     100%
