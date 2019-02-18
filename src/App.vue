@@ -2,7 +2,7 @@
     <div id="app">
         <!-- CURSOR -->
         <!--<div class="cursor"></div>-->
-        <menuComponent></menuComponent>
+        <!--<menuComponent></menuComponent>-->
         <router-view/>
     </div>
 </template>
