@@ -6,7 +6,7 @@ import halfWavePrince from './views/halfWavePrince'
 // import gobletOfWorkshops from './views/gobletOfWorkshops'
 import madHollows from './views/madHollows'
 import automotivePhilosophers from './views/automotivePhilosophers'
-
+import scamandersSuitcase from './views/scamandersSuitcase'
 Vue.use(Router)
 
 export default new Router({
@@ -40,6 +40,11 @@ export default new Router({
       path: '/automotivePhilosophers',
       name: 'automotivePhilosophers',
       component: automotivePhilosophers
+    },
+    {
+      path: '/scamandersSuitcase',
+      name: 'scamandersSuitcase',
+      component: scamandersSuitcase
     }
   ]
 })

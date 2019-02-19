@@ -1,9 +1,8 @@
 [
   {
-    "_id": "5c5ee037cfca2b0017e26e24",
+    "_id": "5c6ab005a034092f8c482ed2",
     "participants": [],
     "department": "non-tech",
-    "description": "genesis event",
     "prizeMoney": [
       20
     ],
@@ -34,10 +33,9 @@
     "notes": null
   },
   {
-    "_id": "5c5ee0b3cfca2b0017e26e25",
+    "_id": "5c6ab005a034092f8c482ed3",
     "participants": [],
     "department": "non-tech",
-    "description": "genesis event",
     "prizeMoney": [
       20
     ],
@@ -68,10 +66,9 @@
     "notes": null
   },
   {
-    "_id": "5c5ee128cfca2b0017e26e26",
+    "_id": "5c6ab005a034092f8c482ed4",
     "participants": [],
     "department": "non-tech",
-    "description": "genesis event",
     "prizeMoney": [
       20
     ],
@@ -102,10 +99,9 @@
     "notes": null
   },
   {
-    "_id": "5c5ee1a6cfca2b0017e26e27",
+    "_id": "5c6ab005a034092f8c482ed5",
     "participants": [],
     "department": "non-tech",
-    "description": "genesis event",
     "prizeMoney": [
       20
     ],
@@ -136,10 +132,9 @@
     "notes": null
   },
   {
-    "_id": "5c5ee1e2cfca2b0017e26e28",
+    "_id": "5c6ab005a034092f8c482ed6",
     "participants": [],
     "department": "civil",
-    "description": "genesis event",
     "prizeMoney": [
       20
     ],
@@ -170,10 +165,9 @@
     "notes": null
   },
   {
-    "_id": "5c5ee21ecfca2b0017e26e2a",
+    "_id": "5c6ab005a034092f8c482ed7",
     "participants": [],
     "department": "cpit",
-    "description": "genesis event",
     "prizeMoney": [
       20
     ],
@@ -204,10 +198,9 @@
     "notes": null
   },
   {
-    "_id": "5c5ee2c0cfca2b0017e26e2b",
+    "_id": "5c6ab005a034092f8c482ed8",
     "participants": [],
     "department": "civil",
-    "description": "genesis event",
     "prizeMoney": [
       20
     ],
@@ -238,10 +231,9 @@
     "notes": null
   },
   {
-    "_id": "5c5ee2d7cfca2b0017e26e2c",
+    "_id": "5c6ab005a034092f8c482ed9",
     "participants": [],
     "department": "ecel",
-    "description": "genesis event",
     "prizeMoney": [
       20
     ],
@@ -272,10 +264,9 @@
     "notes": null
   },
   {
-    "_id": "5c5ee322cfca2b0017e26e2d",
+    "_id": "5c6ab005a034092f8c482eda",
     "participants": [],
     "department": "ee",
-    "description": "genesis event",
     "prizeMoney": [
       20
     ],
@@ -306,10 +297,9 @@
     "notes": null
   },
   {
-    "_id": "5c5ee349cfca2b0017e26e2e",
+    "_id": "5c6ab005a034092f8c482edb",
     "participants": [],
     "department": "ecel",
-    "description": "genesis event",
     "prizeMoney": [
       20
     ],
@@ -338,10 +328,9 @@
     "notes": null
   },
   {
-    "_id": "5c5ee367cfca2b0017e26e2f",
+    "_id": "5c6ab005a034092f8c482edc",
     "participants": [],
     "department": "civil",
-    "description": "genesis event",
     "prizeMoney": [
       20
     ],
@@ -370,10 +359,9 @@
     "notes": null
   },
   {
-    "_id": "5c5ee3d8cfca2b0017e26e30",
+    "_id": "5c6ab005a034092f8c482edd",
     "participants": [],
     "department": "civil",
-    "description": "genesis event",
     "prizeMoney": [
       20
     ],
@@ -402,10 +390,9 @@
     "notes": null
   },
   {
-    "_id": "5c5ee3f3cfca2b0017e26e31",
+    "_id": "5c6ab005a034092f8c482ede",
     "participants": [],
     "department": "ecel",
-    "description": "genesis event",
     "prizeMoney": [
       20
     ],
@@ -440,10 +427,9 @@
     "notes": "Rule Book:\n\na) Robot must be in strict dimensions of 20cm(L)*25cm(B)*20cm(H).\nb) Weight of the bot must not exceed 8 Kgs.\nc) The bot must be Water Proof and Fire Resistant.\nd) Bot must be Battery powered and if it is adapter powered then the participant must take care of the power source and all Nothing will be provided by our side.\ne) If the bot is battery powered then it must not exceed the rating of 13V - 4A.\nf) If anyone found misbehaving will be disqualified."
   },
   {
-    "_id": "5c5ee424cfca2b0017e26e32",
+    "_id": "5c6ab005a034092f8c482edf",
     "participants": [],
     "department": "mechProd",
-    "description": "genesis event",
     "prizeMoney": [
       20
     ],
@@ -474,10 +460,9 @@
     "notes": null
   },
   {
-    "_id": "5c5ee437cfca2b0017e26e33",
+    "_id": "5c6ab005a034092f8c482ee0",
     "participants": [],
     "department": "cpit",
-    "description": "genesis event",
     "prizeMoney": [
       20
     ],
@@ -508,10 +493,9 @@
     "notes": null
   },
   {
-    "_id": "5c5ee458cfca2b0017e26e34",
+    "_id": "5c6ab005a034092f8c482ee1",
     "participants": [],
     "department": "ecel",
-    "description": "genesis event",
     "prizeMoney": [
       20
     ],
@@ -542,10 +526,9 @@
     "notes": null
   },
   {
-    "_id": "5c5ee49bcfca2b0017e26e35",
+    "_id": "5c6ab005a034092f8c482ee2",
     "participants": [],
     "department": "ee",
-    "description": "genesis event",
     "prizeMoney": [
       20
     ],
@@ -576,10 +559,9 @@
     "notes": null
   },
   {
-    "_id": "5c5ee4c0cfca2b0017e26e36",
+    "_id": "5c6ab005a034092f8c482ee3",
     "participants": [],
     "department": "ecel",
-    "description": "genesis event",
     "prizeMoney": [
       20
     ],
@@ -610,10 +592,9 @@
     "notes": null
   },
   {
-    "_id": "5c5ee4c1cfca2b0017e26e37",
+    "_id": "5c6ab005a034092f8c482ee4",
     "participants": [],
     "department": "non-tech",
-    "description": "genesis event",
     "prizeMoney": [
       20
     ],
@@ -645,10 +626,9 @@
     "notes": null
   },
   {
-    "_id": "5c5ee586cfca2b0017e26e38",
+    "_id": "5c6ab005a034092f8c482ee5",
     "participants": [],
     "department": "ee",
-    "description": "genesis event",
     "prizeMoney": [
       20
     ],
@@ -679,10 +659,9 @@
     "notes": null
   },
   {
-    "_id": "5c5ee5f0cfca2b0017e26e39",
+    "_id": "5c6ab005a034092f8c482ee6",
     "participants": [],
     "department": "non-tech",
-    "description": "genesis event",
     "prizeMoney": [
       20
     ],
@@ -712,10 +691,9 @@
     "notes": null
   },
   {
-    "_id": "5c5ee63ecfca2b0017e26e3a",
+    "_id": "5c6ab005a034092f8c482ee7",
     "participants": [],
     "department": "ee",
-    "description": "genesis event",
     "prizeMoney": [
       20
     ],
@@ -742,10 +720,9 @@
     "notes": null
   },
   {
-    "_id": "5c5ee70ccfca2b0017e26e3b",
+    "_id": "5c6ab005a034092f8c482ee8",
     "participants": [],
     "department": "ee",
-    "description": "genesis event",
     "prizeMoney": [
       20
     ],
@@ -780,10 +757,9 @@
     "notes": null
   },
   {
-    "_id": "5c5ee714cfca2b0017e26e3c",
+    "_id": "5c6ab005a034092f8c482ee9",
     "participants": [],
     "department": "non-tech",
-    "description": "genesis event",
     "prizeMoney": [
       20
     ],
@@ -814,10 +790,9 @@
     "notes": null
   },
   {
-    "_id": "5c5ee76ccfca2b0017e26e3d",
+    "_id": "5c6ab005a034092f8c482eea",
     "participants": [],
     "department": "mechProd",
-    "description": "genesis event",
     "prizeMoney": [
       20
     ],
@@ -848,10 +823,9 @@
     "notes": null
   },
   {
-    "_id": "5c5ee789cfca2b0017e26e3f",
+    "_id": "5c6ab005a034092f8c482eeb",
     "participants": [],
     "department": "cpit",
-    "description": "genesis event",
     "prizeMoney": [
       20
     ],
@@ -882,10 +856,9 @@
     "notes": null
   },
   {
-    "_id": "5c5ee7bfcfca2b0017e26e40",
+    "_id": "5c6ab005a034092f8c482eec",
     "participants": [],
     "department": "cpit",
-    "description": "genesis event",
     "prizeMoney": [
       20
     ],
@@ -916,10 +889,9 @@
     "notes": null
   },
   {
-    "_id": "5c5ee876cfca2b0017e26e41",
+    "_id": "5c6ab005a034092f8c482eed",
     "participants": [],
     "department": "cpit",
-    "description": "genesis event",
     "prizeMoney": [
       20
     ],
@@ -944,10 +916,9 @@
     "notes": null
   },
   {
-    "_id": "5c5ee882cfca2b0017e26e42",
+    "_id": "5c6ab005a034092f8c482eee",
     "participants": [],
     "department": "cpit",
-    "description": "genesis event",
     "prizeMoney": [
       20
     ],
@@ -978,10 +949,9 @@
     "notes": null
   },
   {
-    "_id": "5c5ee8b5cfca2b0017e26e43",
+    "_id": "5c6ab005a034092f8c482eef",
     "participants": [],
     "department": "ee",
-    "description": "genesis event",
     "prizeMoney": [
       20
     ],
@@ -1008,10 +978,9 @@
     "notes": "Participants have to perform in the same language during all rounds."
   },
   {
-    "_id": "5c5ee947cfca2b0017e26e44",
+    "_id": "5c6ab005a034092f8c482ef0",
     "participants": [],
     "department": "mechProd",
-    "description": "genesis event",
     "prizeMoney": [
       20
     ],
@@ -1042,10 +1011,9 @@
     "notes": null
   },
   {
-    "_id": "5c5eea1fcfca2b0017e26e45",
+    "_id": "5c6ab005a034092f8c482ef1",
     "participants": [],
     "department": "cpit",
-    "description": "genesis event",
     "prizeMoney": [
       20
     ],
@@ -1076,10 +1044,9 @@
     "notes": null
   },
   {
-    "_id": "5c5eec84cfca2b0017e26e46",
+    "_id": "5c6ab005a034092f8c482ef2",
     "participants": [],
     "department": "mechProd",
-    "description": "genesis event",
     "prizeMoney": [
       20
     ],
@@ -1106,15 +1073,14 @@
     "notes": "Rule Book link: https://drive.google.com/file/d/1qRhiJ2s0cMnPQ16IgnFNCFXFvOLt2m_p/view\nDemo Video link: https://drive.google.com/file/d/1afcTqInd2jdbe0V_PN0kltdVKjDzRn68/view?usp=sharing"
   },
   {
-    "_id": "5c5eed1dcfca2b0017e26e47",
+    "_id": "5c6ab005a034092f8c482ef3",
     "participants": [],
     "department": "non-tech",
-    "description": "genesis event",
     "prizeMoney": [
       20
     ],
     "entryFee": 60,
-    "eventName": "SOTY (STUDENT OF THE YEAR) ",
+    "eventName": "SOTY",
     "eventType": "non-tech",
     "managers": [
       {
@@ -1140,10 +1106,9 @@
     "notes": null
   },
   {
-    "_id": "5c5eee83cfca2b0017e26e48",
+    "_id": "5c6ab005a034092f8c482ef4",
     "participants": [],
     "department": "non-tech",
-    "description": "genesis event",
     "prizeMoney": [
       20
     ],
@@ -1174,10 +1139,9 @@
     "notes": null
   },
   {
-    "_id": "5c5ef009cfca2b0017e26e49",
+    "_id": "5c6ab005a034092f8c482ef5",
     "participants": [],
     "department": "non-tech",
-    "description": "genesis event",
     "prizeMoney": [
       20
     ],
@@ -1208,10 +1172,9 @@
     "notes": null
   },
   {
-    "_id": "5c5ef09acfca2b0017e26e4a",
+    "_id": "5c6ab005a034092f8c482ef6",
     "participants": [],
     "department": "mechProd",
-    "description": "genesis event",
     "prizeMoney": [
       20
     ],
