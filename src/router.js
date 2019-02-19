@@ -4,6 +4,7 @@ import Main from './views/Main'
 import builderOfAzkaban from './views/buildersOfAzkaban'
 import halfWavePrince from './views/halfWavePrince'
 import gobletOfWorkshops from './views/gobletOfWorkshops'
+import orderOfOhms from "./views/orderOfOhms";
 Vue.use(Router)
 
 export default new Router({
@@ -27,6 +28,11 @@ export default new Router({
       path: '/gobletOfWorkshops',
       name: 'gobletOfWorkshops',
       component: gobletOfWorkshops
+    },
+    {
+      path: '/orderOfOhms',
+      name: 'orderOfOhms',
+      component: orderOfOhms
     }
   ]
 })
