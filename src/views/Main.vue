@@ -46,16 +46,21 @@
                 </div>
             </div>
         </section>
+        <section>
+            <mapComponent></mapComponent>
+        </section>
     </div>
 </template>
 
 <script>
   import aboutComponent from '../components/aboutComponent'
+  import mapComponent from '../components/mapComponent'
 
   export default {
     name: "Main",
     components: {
-      aboutComponent
+      aboutComponent,
+      mapComponent
     },
     mounted() {
 
