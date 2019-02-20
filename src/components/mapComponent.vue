@@ -1,10 +1,17 @@
 <template>
     <div id="map" @click="fold">
+        <div class="walk"></div>
         <div class="left-side">
             <div class="left-near"></div>
             <div class="left-far"></div>
         </div>
         <div class="center-piece">
+            <div class="departments">
+                <div class="department" v-for="department in departments">
+                    <img src="../assets/nametag.png" alt="" class="img-fluid">
+                    <span class="deptName">{{ department }} </span>
+                </div>
+            </div>
             <div class="top-side"></div>
             <div class="bottom-side"></div>
         </div>
@@ -27,7 +34,16 @@
       return {
         folded: true,
         t2: null,
-        t1: null
+        t1: null,
+        departments: [
+          'Builders Of Azkaban',
+          'Automotive Philosophers',
+          'Chamber of Coders',
+          'Half Wave Prince',
+          'M.A.D. Hollows',
+          'Scamander\'s suitcase',
+          'Order of Ohms'
+        ]
       }
     },
     methods: {
@@ -56,13 +72,13 @@
       this.t1.to('.left-far', 1.5, {
         rotationY: 180,
         transformOrigin: 'left',
-        backgroundImage: "url('../assets/6.png')"
+        backgroundImage: "url('" + require('../assets/6.png') + "')"
       })
 
       this.t1.to('.right-far', 1.5, {
         rotationY: 180,
         transformOrigin: 'right',
-        backgroundImage: "url('../assets/11.png')"
+        backgroundImage: "url('" + require('../assets/11.png') + "')"
       }, 0)
 
       this.t1.to('.left-far', 0.5, {
@@ -87,6 +103,10 @@
         rotationX: 180,
         transformOrigin: "bottom left"
       }, "-=0.5")
+
+      this.t1.from('.walk, .departments', 0.5, {
+        autoAlpha: 0
+      })
 
 
 

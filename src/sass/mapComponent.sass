@@ -1,13 +1,11 @@
 @import variables
 
-.map
+#map
   position: absolute
-  background: #001224
+  background: url("https://allfreshwallpapers.com/uploads/posts/hd-wallpapers-harry-potter/hd_wallpapers_harry_potter_001.jpg") no-repeat
+  background-size: cover
   height: 100vh
   width: 100vw
-  top: 50%
-  left: 50%
-  transform: translate(-50%, -50%)
 
 .center-piece
   position: absolute
@@ -49,6 +47,53 @@
   background-size: cover
 
 .center-piece
+  .departments
+    position: absolute
+    height: 100%
+    width: 100%
+    z-index: 3
+    text-align: center
+    color: black
+    //font-weight: bolder
+    .department
+      position: relative
+      transform: scale(0.7)
+      animation: hover 3s linear infinite alternate
+      font-family: 'MagicSchool', sans-serif
+      font-size: 32px
+      &:hover
+        color: white
+      &:nth-child(2)
+        top: 5%
+        left: -20%
+        animation-delay: 0.5s
+      &:nth-child(3)
+        top: 5%
+        left: 20%
+        animation-delay: 0.8s
+      &:nth-child(4)
+        top: 8%
+        left: 5%
+        animation-delay: 1s
+      &:nth-child(5)
+        top: 45%
+        left: -15%
+        animation-delay: 0.3s
+      &:nth-child(6)
+        top: 45%
+        left: 20%
+        animation-delay: 0.1s
+      &:nth-child(7)
+        top: 45%
+        left: -20%
+        animation-delay: 0.7s
+      img
+        position: absolute
+        z-index: -1
+        transform: translateX(-50%)
+      .deptName
+        display: block
+        //padding-top: 10px
   .top-side
     height: 25%
     width: 100%
@@ -69,6 +114,9 @@
 /*transform: rotateX(180deg);
 /*transform-origin: top
 
+@keyframes hover
+  100%
+    transform: translateX(10px) scale(0.7)
 .info
   color: white
   position: absolute
@@ -97,6 +145,28 @@
 .letter
   display: inline-block
 
+.walk
+  background: url("../assets/walk.png") no-repeat left
+  background-size: cover
+  position: absolute
+  top: 56%
+  left: 22%
+  height: 256px
+  width: 256px
+  z-index: 3
+  transform: translate(-50%, -50%) scale(0.5) rotate(90deg)
+  animation: walk 2s steps(6) infinite, move 5s linear infinite
+
+@keyframes walk
+  100%
+    background-position-x: -1536px
+
+
+@keyframes move
+  100%
+    left: 35%
+    top: 60%
+
 @media (min-width: 320px) and (max-width: 540px)
   .text
     width: 300px
@@ -114,6 +184,21 @@
     right: 0
   .left-near, .right-near
     display: none
+  .walk
+    top: 52%
+    left: 31%
+    transform: translate(-50%, -50%) scale(0.3) rotate(90deg)
+  .departments
+    overflow: hidden
+  .department
+    transform: scale(0.5) !important
+  @keyframes hover
+    100%
+      transform: translateX(10px) scale(0.5)
+  @keyframes move
+    100%
+      left: 45%
+      top: 54%
 
 @media (min-width: 320px) and (max-width: 1024px)
   .cursor
