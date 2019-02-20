@@ -1,6 +1,34 @@
 <template>
     <div id="orderOfOhms">
         <!--<div class="heading"><p>Order of Ohms</p></div>-->
+        <div class="circles">
+            <div style="top: 5%; left: 35%"></div>
+            <div style="top: 10%; left: 25%"></div>
+            <div style="top: 2%; left: 20%"></div>
+            <div style="top: 15%; left: 25%"></div>
+            <div style="top: 8%; left: 35%"></div>
+        </div>
+        <div class="circles">
+            <div style="top: 5%; left: 31%"></div>
+            <div style="top: 2%; left: 34%"></div>
+            <div style="top: 2%; left: 33%"></div>
+            <div style="top: 6%; left: 30%"></div>
+            <div style="top: 10%; left: 32%"></div>
+        </div>
+        <div class="circles">
+            <div style="top: 2%; left: 35%"></div>
+            <div style="top: 4%; left: 30%"></div>
+            <div style="top: 20%; left: 25%"></div>
+            <div style="top: 5%; left: 40%"></div>
+            <div style="top: 1%; left: 35%"></div>
+        </div>
+        <div class="circles">
+            <div style="top: 10%; left: 35%"></div>
+            <div style="top: 9%; left: 40%"></div>
+            <div style="top: 8%; left: 30%"></div>
+            <div style="top: 5%; left: 45%"></div>
+            <div style="top: 1%; left: 35%"></div>
+        </div>
         <div class="events">
             <div class="event" v-for="event in deptEvents" @click="eventsDetail = event">{{ event.eventName }}</div>
         </div>

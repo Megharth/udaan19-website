@@ -2,6 +2,22 @@
   font-family: Muggle
   src: url("../assets/muggleNews.ttf")
 
+@keyframes scaling1
+  0%
+    transform: scaleX(0)
+  100%
+    transform: scaleX(1)
+
+@keyframes flame
+  0%
+    opacity: 0
+    transform: translate(-10px,10px)
+  60%
+    opacity: 0.7
+  100%
+    opacity: 0
+    transform: translate(-200px,100px)
+
 #orderOfOhms
   background: url("../assets/fire-bird-phoenix-fantasy-creature-illustration2.jpg") no-repeat center center
   position: absolute
@@ -29,7 +45,7 @@
   color: white
   position: absolute
   left: 50%
-  top: 55%
+  top: 57%
   transform: translate(-50%,-50%)
   font-size: 1.7rem
   cursor: pointer
@@ -41,6 +57,29 @@
   width: 100%
   letter-spacing: 2.5px
   font-family: "Muggle", sans-serif
+  transform: scaleX(0)
+  animation: scaling1 0.5s forwards ease-in
+
+.circles div
+  position: absolute
+  width: 10px
+  height: 10px
+  border-radius: 50%
+  background: #ffa315
+  opacity: 0
+  transform: translate(-50%,-50%)
+
+.circles
+  div:nth-of-type(1)
+    animation: flame 1s linear forwards infinite
+  div:nth-of-type(2)
+    animation: flame 1s 0.25s linear forwards infinite
+  div:nth-of-type(3)
+    animation: flame 1s 0.5s linear forwards infinite
+  div:nth-of-type(4)
+    animation: flame 1s 0.75s linear forwards infinite
+  div:nth-of-type(5)
+    animation: flame 1s 1s linear forwards infinite
 
 .eventDescription
   position: absolute
@@ -50,7 +89,7 @@
   border-radius: 5%
   left: 50%
   transform: translate(-50%, -50%)
-  background: url("../assets/page.png")
+  background: url("../assets/page2.jpg")
   background-size: cover
   .eventName, .tagline
     text-align: center
@@ -123,6 +162,7 @@
     transform: translate(-50%, -50%)
   .events
     font-size: 1.2rem
+    top: 58%
     width: 60%
   .event
     letter-spacing: 1.5px
