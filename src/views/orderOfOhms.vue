@@ -1,6 +1,10 @@
 <template>
     <div id="orderOfOhms">
         <!--<div class="heading"><p>Order of Ohms</p></div>-->
+        <div class="startPage">
+            <div class="heading">Order Of Ohms</div>
+            <div class="ohmsLogo"><img src="../assets/Order_of_OHMS.png" alt=""></div>
+        </div>
         <div class="circles">
             <div style="top: 5%; left: 35%"></div>
             <div style="top: 10%; left: 25%"></div>
