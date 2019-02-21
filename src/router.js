@@ -3,10 +3,11 @@ import Router from 'vue-router'
 import Main from './views/Main'
 import builderOfAzkaban from './views/buildersOfAzkaban'
 import halfWavePrince from './views/halfWavePrince'
-// import gobletOfWorkshops from './views/gobletOfWorkshops'
 import madHollows from './views/madHollows'
 import automotivePhilosophers from './views/automotivePhilosophers'
 import scamandersSuitcase from './views/scamandersSuitcase'
+import gobletOfWorkshops from './views/gobletOfWorkshops'
+import orderOfOhms from "./views/orderOfOhms"
 Vue.use(Router)
 
 export default new Router({
@@ -45,6 +46,11 @@ export default new Router({
       path: '/scamandersSuitcase',
       name: 'scamandersSuitcase',
       component: scamandersSuitcase
+    },
+    {
+      path: '/orderOfOhms',
+      name: 'orderOfOhms',
+      component: orderOfOhms
     }
   ]
 })
