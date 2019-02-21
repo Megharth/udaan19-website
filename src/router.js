@@ -8,6 +8,8 @@ import automotivePhilosophers from './views/automotivePhilosophers'
 import scamandersSuitcase from './views/scamandersSuitcase'
 import gobletOfWorkshops from './views/gobletOfWorkshops'
 import orderOfOhms from "./views/orderOfOhms"
+import chamberOfCoders from './views/chamberOfCoders'
+
 Vue.use(Router)
 
 export default new Router({
@@ -51,6 +53,11 @@ export default new Router({
       path: '/orderOfOhms',
       name: 'orderOfOhms',
       component: orderOfOhms
+    },
+    {
+      path: '/chamberOfCoders',
+      name: 'chamberOfCoders',
+      component: chamberOfCoders
     }
   ]
 })
