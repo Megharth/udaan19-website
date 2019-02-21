@@ -7,9 +7,9 @@
         </div>
         <div class="center-piece">
             <div class="departments">
-                <div class="department" v-for="department in departments">
+                <div class="department" v-for="department in departments" @click="$router.push(department.url)">
                     <img src="../assets/nametag.png" alt="" class="img-fluid">
-                    <span class="deptName">{{ department }} </span>
+                    <span class="deptName">{{ department.name }} </span>
                 </div>
             </div>
             <div class="top-side"></div>
@@ -36,13 +36,34 @@
         t2: null,
         t1: null,
         departments: [
-          'Builders Of Azkaban',
-          'Automotive Philosophers',
-          'Chamber of Coders',
-          'Half Wave Prince',
-          'M.A.D. Hollows',
-          'Scamander\'s suitcase',
-          'Order of Ohms'
+          {
+            name: "Builders Of Azkaban",
+            url: 'boa'
+          },
+          {
+            name: "Automotive Philosophers",
+            url: 'automotivePhilosophers'
+          },
+          {
+            name: "Chamber of Coders",
+            url: 'chamberOfCoders'
+          },
+          {
+            name: "Half Wave Prince",
+            url: 'halfWavePrince'
+          },
+          {
+            name: "M. A. D. Hollows",
+            url: 'madHollows'
+          },
+          {
+            name: "Scamander\'s Suitcase",
+            url: 'scamandersSuitcase'
+          },
+          {
+            name: "Order of Ohms",
+            url: 'orderOfOhms'
+          }
         ]
       }
     },
