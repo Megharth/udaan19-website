@@ -1,9 +1,10 @@
 <template>
     <div id="buidersOfAzkaban">
         <div class="rain"></div>
-        <div class="heading">
+        <introComponent :dept="dept"></introComponent>
+        <!--<div class="heading">
             <p>Welcome to <br>Builders of Azkaban</p>
-        </div>
+        </div>-->
         <div class="events">
             <div class="event" v-for="event in deptEvents" @click="eventsDetail = event">{{ event.eventName }}</div>
         </div>
@@ -36,23 +37,49 @@
 
 <script>
   import events from '../events'
+  import introComponent from '../components/introComponent'
 
   export default {
     name: "buildersOfAzkaban",
+    components: {
+      introComponent
+    },
     data() {
       return {
         events,
         deptEvents: [],
-        eventsDetail: null
+        eventsDetail: null,
+        dept: {
+          name: "Builders Of Azkaban",
+          imgName: "Builder_of_Azkaban.png"
+        }
       }
     },
     mounted() {
 
       let t2 = new this.$gsap.TimelineMax()
 
+      t2.from('.logo img', 1, {
+        scale: 0,
+        autoAlpha: 0,
+        rotation: 360
+      })
+
+      t2.from('.logo .heading', 0.5, {
+        y: 100,
+        autoAlpha: 0
+      }, "-=0.5")
       t2.to('.events', 0.5, {
         autoAlpha: 1
       }, "+=2")
+
+      t2.to('#introComponent', 0.5, {
+        autoAlpha: 0
+      }, "-=2")
+
+      t2.staggerFrom('.event', 0.5, {
+        autoAlpha: 0
+      }, 0.2, "-=1")
 
       let tl = new this.$gsap.TimelineMax({
         repeat: -1,

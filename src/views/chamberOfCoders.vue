@@ -35,7 +35,6 @@
 
 <script>
   import events from '../events'
-
   export default {
     name: "chamberOfCoders",
     data() {

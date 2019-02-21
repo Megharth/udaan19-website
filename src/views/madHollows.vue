@@ -1,5 +1,6 @@
 <template>
     <div id="madHollows">
+        <introComponent :dept="dept"></introComponent>
         <div class="events">
             <div class="event" v-for="event in deptEvents" @click="eventsDetail = event">
                 <span>{{event.eventName}}</span>
@@ -26,15 +27,23 @@
 
 <script>
   import events from '../events'
+  import introComponent from '../components/introComponent'
 
   export default {
     name: "madHollows",
+    components: {
+      introComponent
+    },
     data() {
       return {
         events,
         deptEvents: [],
         eventsDetail: null,
-        tl: null
+        tl: null,
+        dept: {
+          name: "M. A. D. Hollows",
+          imgName: "M.A.D._Hollows.png"
+        }
       }
     },
     created() {
@@ -48,9 +57,24 @@
     mounted() {
 
       let tl1 = new this.$gsap.TimelineMax()
-      tl1.from('.event', 2, {
-        scale: 0,
+      tl1.from('.logo img', 1, {
+        x: -500,
+        autoAlpha: 0,
+        rotation: 360
       })
+
+      tl1.from('.logo .heading', 0.5, {
+        autoAlpha: 0,
+        scaleX: 0
+      }, "-=0.3")
+
+      tl1.to('#introComponent', 0.5, {
+        autoAlpha: 0
+      }, "+=1")
+
+      tl1.staggerFrom('.event', 2, {
+        scale: 0
+      }, 0.2)
       let tl = new this.$gsap.TimelineMax({
         repeat: -1,
         yoyo: true

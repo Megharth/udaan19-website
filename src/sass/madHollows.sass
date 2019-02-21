@@ -7,7 +7,8 @@
   background: url("http://triplemonitorwallpaper.com/wp-content/uploads/2018/05/the-tale-of-the-three-brothers-wallpaper-5.jpg") no-repeat
   background-size: cover
   font-family: 'MagicSchool', sans-serif
-
+#introComponent
+  color: white
 .events
   position: absolute
   top: 50%
@@ -31,8 +32,8 @@
   text-align: center
   font-size: 24px
   box-shadow: 0 4px 4px rgba(0,0,0,0.25)
-  transition: all 0.2s linear
   &:hover
+    transition: all 0.2s linear
     background: #333333 url("../assets/smoke.png") center center no-repeat
     background-size: contain
     color: white
@@ -61,13 +62,13 @@
   .tagline
     font-size: 22px
   .rounds
-    width: 75%
+    width: 80%
     text-align: justify
     font-family: 'dumbledore', sans-serif
     font-style: italic
     .round
       padding: 10px
-      font-size: 18px
+      font-size: 16px
       .roundIndice
         font-weight: bolder
   .managers
@@ -98,4 +99,15 @@
   100%
     transform: translate(-50%, -50%) scale(1) rotate(360deg)
     opacity: 1
+
+@media (min-width: 320px) and (max-width: 540px)
+  .eventDescription
+    .eventName
+      margin-top: 20px
+      font-size: 30px
+    .tagline
+      font-size: 16px
+    .rounds
+      .round
+        padding: 5px
 
