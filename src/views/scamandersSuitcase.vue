@@ -46,7 +46,6 @@
         if (event.department === "non-tech")
           self.deptEvents.push(event)
       })
-      console.log(this.deptEvents)
     },
     mounted() {
       let tl = new this.$gsap.TimelineMax()

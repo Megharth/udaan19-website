@@ -1,48 +1,49 @@
 <template>
     <div id="madHollows">
         <div class="events">
-            <div class="event" @click="openDetails">
-                <span>Event Name</span>
-            </div>
-            <div class="event" @click="openDetails">
-                <span>Event Name</span>
-            </div>
-            <div class="event">
-                <span>Event Name</span>
+            <div class="event" v-for="event in deptEvents" @click="eventsDetail = event">
+                <span>{{event.eventName}}</span>
             </div>
         </div>
-        <div class="eventDescription">
-            <div class="back" @click="tl.reverse()">Back</div>
-        </div>
+        <transition name="swirl">
+            <div class="eventDescription" v-if="eventsDetail">
+                <div class="eventName">{{ eventsDetail.eventName }}</div>
+                <div class="tagline">{{ eventsDetail.tagline }}</div>
+                <div class="rounds mx-auto">
+                    <div class="round" v-for="(round, index) in eventsDetail.rounds"><span class="roundIndice">Round {{index + 1}} :</span> {{ round }}</div>
+                </div>
+                <div class="managers">
+                    <div class="manager" v-for="manager in eventsDetail.managers">
+                        <div class="name">{{manager.name}}</div>
+                        <div class="contact">{{manager.phone}}</div>
+                    </div>
+                </div>
+                <div class="back" @click="eventsDetail = null">Back</div>
+            </div>
+        </transition>
     </div>
 </template>
 
 <script>
-    import events from '../events'
+  import events from '../events'
 
   export default {
     name: "madHollows",
     data() {
       return {
         events,
+        deptEvents: [],
+        eventsDetail: null,
         tl: null
       }
     },
-    methods: {
-      openDetails() {
-        console.log('wroking')
-        this.tl = new this.$gsap.TimelineMax()
-        this.tl.to('.events', 0.5, {
-          scale: 0
-        })
-
-        this.tl.to('.eventDescription', 0.5, {
-          scale: 1,
-          opacity: 1,
-          zIndex: 2,
-          rotation: 360
-        })
-      }
+    created() {
+      let self = this
+      this.events.forEach(function (event) {
+        if (event.department === "cultural")
+          self.deptEvents.push(event)
+      })
+      console.log(this.deptEvents)
     },
     mounted() {
 
@@ -66,5 +67,5 @@
 </script>
 
 <style scoped lang="sass">
-@import ../sass/madHollows
+    @import ../sass/madHollows
 </style>
