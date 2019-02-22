@@ -1,8 +1,8 @@
 <template>
     <div id="menu">
         <div class="icon" @click="openMenu()">
-            <div class="line"></div>
-            <div class="line"></div>
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
         </div>
         <div class="tabs" v-if="isOpen">
             <div class="tab" v-for="navigation in navigations" @click="navigate(navigation.url)">{{ navigation.name }}</div>
@@ -62,6 +62,16 @@
         background: "#333333",
         boxShadow: "-4px 0 4px rgba(0,0,0,0.25)"
       })
+      this.tl.to('#line1', 0.5, {
+        rotation: -45,
+        background: "orangered",
+        y: 8
+      }, "-=0.5")
+      this.tl.to('#line2', 0.5, {
+        rotation: 45,
+        background: "orangered",
+      }, "-=0.5")
+
 
     },
     methods: {
