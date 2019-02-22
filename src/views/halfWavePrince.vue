@@ -1,5 +1,8 @@
 <template>
     <div id="halfWavePrince">
+        <div class="backArrow" @click="$router.push('/')">
+            <span><</span>
+        </div>
         <div class="book">
             <div class="left-side">
                 <div class="front">
@@ -181,7 +184,8 @@
                 <div class="eventDescription" v-if="event">
                     <div class="eventName">{{ event.eventName }}</div>
                     <div class="tagline">{{event.tagline}}</div>
-                    <div class="rounds">
+                    <div class="entryFee">Entry Fee: {{event.entryFee}}</div>
+                    <div class="rounds mx-auto">
                         <div class="round" v-for="(round, index) in event.rounds"><span class="round-indice">Round {{index + 1}}: </span>{{round}}</div>
                     </div>
                     <div class="managers">
