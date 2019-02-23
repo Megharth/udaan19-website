@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/img/Scamander_Suitcase_s.db3dcf53.png"
   },
   {
-    "revision": "2b69a0974484f26cb4de6842af1664dd",
-    "url": "/favicon.png"
-  },
-  {
-    "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
+    "revision": "735ab4f94fbcd57074377afca324c813",
     "url": "/robots.txt"
   },
   {
+    "revision": "8db216fe70429724fa1d970151db1b3e",
+    "url": "/img/Auto_Motive_Philosopher.8db216fe.png"
+  },
+  {
     "revision": "13b93a56e46bc078b56c",
-    "url": "/js/chunk-vendors.86ed6ce7.js"
+    "url": "/css/chunk-vendors.3259982a.css"
   },
   {
     "revision": "3e206e7186c3341045a7e87ebbe95172",
@@ -44,6 +44,10 @@ self.__precacheManifest = [
     "url": "/img/9.202e23f4.png"
   },
   {
+    "revision": "75673e5ff5e07bee6c13b0f60fd694b2",
+    "url": "/fonts/dum1.75673e5f.ttf"
+  },
+  {
     "revision": "d3b542a2095dfb2aece11f35c423a48e",
     "url": "/img/6.d3b542a2.png"
   },
@@ -54,10 +58,6 @@ self.__precacheManifest = [
   {
     "revision": "1db8c3a84e1e1b78a1858360922bef15",
     "url": "/fonts/headlineOne.1db8c3a8.TTF"
-  },
-  {
-    "revision": "75673e5ff5e07bee6c13b0f60fd694b2",
-    "url": "/fonts/dum1.75673e5f.ttf"
   },
   {
     "revision": "2fb4958dcb8af379b9d53f345ba57ffa",
@@ -116,12 +116,12 @@ self.__precacheManifest = [
     "url": "/img/11.1cccd491.png"
   },
   {
-    "revision": "720f8a65b5d51c2505ef",
-    "url": "/js/app.2a35587d.js"
+    "revision": "1338185a8d5036927f5e",
+    "url": "/js/app.3fd9a896.js"
   },
   {
-    "revision": "8db216fe70429724fa1d970151db1b3e",
-    "url": "/img/Auto_Motive_Philosopher.8db216fe.png"
+    "revision": "13b93a56e46bc078b56c",
+    "url": "/js/chunk-vendors.86ed6ce7.js"
   },
   {
     "revision": "893745595c83e1208bd130b8ac6916e1",
@@ -224,15 +224,15 @@ self.__precacheManifest = [
     "url": "/img/nametag.ad9ecb7a.png"
   },
   {
-    "revision": "322ec6cea7fa911a7141e7abfc57360c",
+    "revision": "64d8e14269810825434c7118f7039778",
     "url": "/index.html"
   },
   {
-    "revision": "13b93a56e46bc078b56c",
-    "url": "/css/chunk-vendors.3259982a.css"
+    "revision": "2b69a0974484f26cb4de6842af1664dd",
+    "url": "/favicon.png"
   },
   {
-    "revision": "720f8a65b5d51c2505ef",
-    "url": "/css/app.47d4a7da.css"
+    "revision": "1338185a8d5036927f5e",
+    "url": "/css/app.bfea7aa8.css"
   }
 ];

@@ -10,6 +10,43 @@
     transform: translateX(-50%)
 
 
+.mouse
+  position: fixed
+  bottom: 5%
+  left: 50%
+
+.mouse-icon
+  width: 20px
+  height: 35px
+  border: 2px solid white
+  border-radius: 15px
+  cursor: pointer
+  position: relative
+  text-align: center
+
+.mouse-wheel
+  height: 6px
+  margin: 2px auto 0
+  display: block
+  width: 3px
+  background-color: white
+  border-radius: 50%
+  -webkit-animation: 1.6s ease infinite wheel-up-down
+  -moz-animation: 1.6s ease infinite wheel-up-down
+  animation: 1.6s ease infinite wheel-up-down
+
+@keyframes wheel-up-down
+  0%
+    margin-top: 2px
+    opacity: 0
+
+  30%
+    opacity: 1
+
+  100%
+    margin-top: 20px
+    opacity: 0
+
 .bg-image
   background: url("../assets/background.jpg") no-repeat center bottom
   position: fixed

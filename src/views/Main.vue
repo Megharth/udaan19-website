@@ -1,55 +1,60 @@
 <template>
-    <div id="main">
-        <section>
-            <div id="landing">
-                <div class="pin-scene">
-                    <div class="bird-container bird-container--one">
-                        <div class="bird bird--one"></div>
-                    </div>
+  <div id="main">
+    <section>
+      <div id="landing">
+        <div class="pin-scene">
+          <div class="bird-container bird-container--one">
+            <div class="bird bird--one"></div>
+          </div>
 
-                    <div class="bird-container bird-container--two">
-                        <div class="bird bird--two"></div>
-                    </div>
+          <div class="bird-container bird-container--two">
+            <div class="bird bird--two"></div>
+          </div>
 
-                    <div class="bird-container bird-container--three">
-                        <div class="bird bird--three"></div>
-                    </div>
+          <div class="bird-container bird-container--three">
+            <div class="bird bird--three"></div>
+          </div>
 
-                    <div class="bird-container bird-container--four">
-                        <div class="bird bird--four"></div>
-                    </div>
+          <div class="bird-container bird-container--four">
+            <div class="bird bird--four"></div>
+          </div>
 
-                    <div class="bg-image"></div>
-                    <div class="udaan-logo">
-                        <img src="../assets/logo.png" alt="udaanLogo" class="img-fluid">
-                    </div>
-                    <!--<div class="quidditch-ball"></div>-->
-                    <!--<div class="demantadors">-->
-                    <!--<div class="demantador">-->
-                    <!--<ul>-->
-                    <!--<li></li>-->
-                    <!--<li></li>-->
-                    <!--<li></li>-->
-                    <!--<li></li>-->
-                    <!--</ul>-->
-                    <!--</div>-->
-                    <!--</div>-->
-                    <!--<div class="coming-soon">Coming soon</div>-->
-                </div>
+          <div class="bg-image"></div>
+          <div class="udaan-logo">
+            <img src="../assets/logo.png" alt="udaanLogo" class="img-fluid">
+          </div>
+          <div class="mouse">
+            <div class="mouse-icon">
+              <span class="mouse-wheel"></span>
             </div>
-        </section>
-        <section>
-            <div id="about">
-                <aboutComponent class="aboutComponent"></aboutComponent>
-                <div class="particles">
-                    <div class="particle" v-for="n in 50"></div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <mapComponent></mapComponent>
-        </section>
-    </div>
+          </div>
+          <!--<div class="quidditch-ball"></div>-->
+          <!--<div class="demantadors">-->
+          <!--<div class="demantador">-->
+          <!--<ul>-->
+          <!--<li></li>-->
+          <!--<li></li>-->
+          <!--<li></li>-->
+          <!--<li></li>-->
+          <!--</ul>-->
+          <!--</div>-->
+          <!--</div>-->
+          <!--<div class="coming-soon">Coming soon</div>-->
+        </div>
+      </div>
+    </section>
+    <section>
+      <div id="about">
+        <aboutComponent class="aboutComponent"></aboutComponent>
+        <div class="particles">
+          <div class="particle" v-for="n in 15"></div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <mapComponent></mapComponent>
+    </section>
+  </div>
 </template>
 
 <script>
@@ -123,7 +128,7 @@
           scale: 0.5,
           autoAlpha: 0
         }),
-        TweenMax.to('.udaan-logo', 4, {
+        TweenMax.to('.udaan-logo, .mouse', 4, {
           y: -50,
           scale: 0.5,
           autoAlpha: 0
@@ -162,7 +167,7 @@
             scale: function () {
               return Math.random() * 5
             },
-            rotation: function() {
+            rotation: function () {
               return Math.random() * 360
             },
             backgroundColor: function () {
@@ -207,21 +212,21 @@
 </script>
 
 <style scoped lang="sass">
-    @import ../sass/main
-    @font-face
-        font-family: 'dumbledore'
-        src: url("../assets/dum1.ttf")
+  @import ../sass/main
+  @font-face
+    font-family: 'dumbledore'
+    src: url("../assets/dum1.ttf")
 
-    /*.coming-soon
-        position: absolute
-        top: 50px
-        left: 50%
-        z-index: 3
-        transform: translateX(-50%)
-        color: black
-        text-align: center
-        font-family: dumbledore, sans-serif
-        font-size: 72px
-        .letter
-            display: inline-block !important*/
+  /*.coming-soon
+      position: absolute
+      top: 50px
+      left: 50%
+      z-index: 3
+      transform: translateX(-50%)
+      color: black
+      text-align: center
+      font-family: dumbledore, sans-serif
+      font-size: 72px
+      .letter
+          display: inline-block !important*/
 </style>
