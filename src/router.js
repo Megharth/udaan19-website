@@ -29,11 +29,11 @@ export default new Router({
       name: 'halfWavePrince',
       component: halfWavePrince
     },
-    /*{
+    {
       path: '/gobletOfWorkshops',
       name: 'gobletOfWorkshops',
       component: gobletOfWorkshops
-    },*/
+    },
     {
       path: '/madHollows',
       name: 'madHollows',
