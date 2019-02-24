@@ -9,6 +9,7 @@ import scamandersSuitcase from './views/scamandersSuitcase'
 import gobletOfWorkshops from './views/gobletOfWorkshops'
 import orderOfOhms from "./views/orderOfOhms"
 import chamberOfCoders from './views/chamberOfCoders'
+import team from './views/team'
 
 Vue.use(Router)
 
@@ -58,6 +59,11 @@ export default new Router({
       path: '/chamberOfCoders',
       name: 'chamberOfCoders',
       component: chamberOfCoders
+    },
+    {
+      path: '/team',
+      name: 'team',
+      component: team
     }
   ]
 })

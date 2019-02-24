@@ -201,7 +201,7 @@
       let scrollAbout = new this.$scrollmagic.Scene({
         triggerHook: 0,
         triggerElement: '#about',
-        duration: '100%'
+        duration: '50%'
       })
         .setTween(aboutScrollTl)
         .setPin('#about')

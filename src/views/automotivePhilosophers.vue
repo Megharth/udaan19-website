@@ -14,6 +14,7 @@
                 <div class="eventName">{{eventsDetail.eventName}}</div>
                 <div class="tagline">{{eventsDetail.tagline}}</div>
                 <div class="entryFee">Entry Fee: {{eventsDetail.entryFee}}</div>
+                <div class="teamSize">Team size: {{eventsDetail.teamSize}}</div>
                 <div class="rounds">
                     <div class="round" v-for="(round, index) in eventsDetail.rounds">
                         <span class="roundIndice">Round {{index + 1}} : </span>
