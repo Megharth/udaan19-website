@@ -50,12 +50,17 @@
             <div class="eventDescription" v-if="eventsDetail">
                 <div class="eventName">{{ eventsDetail.eventName }}</div>
                 <div class="tagline">{{ eventsDetail.tagline }}</div>
-                <div class="entryFee">Entry Fee: {{ eventsDetail.entryFee }}</div>
                 <div class="event-content">
                     <div class="rounds">
-                        <div class="round" v-for="(round, index) in eventsDetail.rounds"><span class="roundIndice">Round {{index + 1}} : </span>{{
-                            round}}
+                        <div class="round" v-for="(round, index) in eventsDetail.rounds">
+                            <span class="roundIndice">Round {{index + 1}} : </span>
+                            {{round}}
                         </div>
+                    </div>
+                    <div class="entryFee">Entry Fee: {{ eventsDetail.entryFee }}</div>
+                    <div class="entryFee">Entry Fee: {{ eventsDetail.entryFee }}</div>
+                    <div class="notes" v-if="eventsDetail.notes">
+                        Notes: <pre>{{eventsDetail.notes}}</pre>
                     </div>
                     <div class="managers">
                         <div class="manager" v-for="manager in eventsDetail.managers">

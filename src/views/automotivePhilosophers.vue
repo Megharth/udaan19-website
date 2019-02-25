@@ -18,8 +18,11 @@
                 <div class="rounds">
                     <div class="round" v-for="(round, index) in eventsDetail.rounds">
                         <span class="roundIndice">Round {{index + 1}} : </span>
-                        {{round}}
+                        <pre>{{round}}</pre>
                     </div>
+                </div>
+                <div class="notes" v-if="eventsDetail.notes">
+                    Notes: <pre>{{eventsDetail.notes}}</pre>
                 </div>
                 <div class="managers">
                     <div class="manager" v-for="manager in eventsDetail.managers">
@@ -51,7 +54,6 @@
         if (event.department === "mechProd")
           self.deptEvents.push(event)
       })
-      console.log(this.deptEvents)
     },
     mounted() {
       let tl = new this.$gsap.TimelineMax()

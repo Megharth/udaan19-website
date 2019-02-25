@@ -17,7 +17,7 @@
             <div class="teamSize">Team size: {{eventsDetail.teamSize}}</div>
             <div class="rounds">
                 <div class="round" v-for="(round, index) in eventsDetail.rounds">
-                    <pre>{{round}}</pre>
+                    Description : <pre>{{round}}</pre>
                 </div>
             </div>
             <div class="notes" v-if="eventsDetail.notes">

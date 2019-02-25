@@ -20,10 +20,15 @@
                 <div class="eventName">{{eventsDetail.eventName}}</div>
                 <div class="tagline">{{eventsDetail.tagline}}</div>
                 <div class="entryFee">Entry Fee: {{eventsDetail.entryFee}}</div>
+                <div class="entryFee">Team Size: {{eventsDetail.teamSize}}</div>
                 <div class="rounds mx-auto">
                     <div class="round" v-for="(round, index) in eventsDetail.rounds">
-                        <span class="roundIndice">Round {{index + 1}} : </span> {{round}}
+                        <span class="roundIndice">Round {{index + 1}} : </span>
+                        <pre>{{round}}</pre>
                     </div>
+                </div>
+                <div class="notes" v-if="eventsDetail.notes">
+                    Notes: <pre>{{eventsDetail.notes}}</pre>
                 </div>
                 <div class="managers">
                     <div class="manager" v-for="manager in eventsDetail.managers">
@@ -54,7 +59,6 @@
         if (event.department === "cpit")
           self.deptEvents.push(event)
       })
-      console.log(this.deptEvents)
     },
     mounted() {
       let tl = new this.$gsap.TimelineMax()
