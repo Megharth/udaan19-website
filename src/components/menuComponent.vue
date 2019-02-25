@@ -48,6 +48,10 @@
           {
             name: "Order of Ohms",
             url: 'orderOfOhms'
+          },
+          {
+            name: 'Goblet Of Workshops',
+            url: 'gobletOfWorkshops'
           }
         ],
         tl: null

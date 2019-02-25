@@ -63,6 +63,10 @@
           {
             name: "Order of Ohms",
             url: 'orderOfOhms'
+          },
+          {
+            name: 'Goblet of Workshops',
+            url: 'gobletOfWorkshops'
           }
         ]
       }

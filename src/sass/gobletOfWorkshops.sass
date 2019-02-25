@@ -52,7 +52,7 @@
 .events
   position: absolute
   height: 50%
-  width: 70%
+  width: 100%
   left: 50%
   top: 50%
   text-align: center
@@ -74,6 +74,32 @@
     &:hover
       z-index: 2 !important
       transform: rotate(0deg) !important
+
+.eventDescription
+  position: absolute
+  height: 80%
+  width: 50%
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  background: url("../assets/page.png") no-repeat center center
+  background-size: cover
+  border-radius: 25px
+  text-align: center
+  font-family: muggleNews, sans-serif
+  box-shadow: 0 4px 4px rgba(0,0,0,0.25)
+  .eventName
+    font-size: 34px
+  .rounds
+    margin-top: 20px
+    text-align: justify
+    .round
+      padding: 20px
+  .managers
+    margin-top: 20px
+    .manager
+      display: inline-block
+      margin: 10px
 @media (min-width: 320px) and (max-width: 540px)
   .flame
     height: 2em
@@ -88,3 +114,10 @@
       font-size: 20px
       height: 80px !important
       width: 100px !important
+  .eventDescription
+    width: 95%
+    overflow: scroll
+
+  .back
+    position: unset !important
+    padding: 10px

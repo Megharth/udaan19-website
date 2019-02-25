@@ -7,25 +7,43 @@
             <img src="../assets/goblet.png" alt="goblet" class="img-fluid">
         </div>
         <div class="events">
-            <div class="event">Some text</div>
-            <div class="event">some Text</div>
-            <div class="event">some text</div>
-            <div class="event">Some Text</div>
-            <div class="event">Some Text</div>
-            <div class="event">Some Text</div>
+            <div class="event" v-for="event in deptEvents" @click="eventsDetail = event">{{ event.eventName }}</div>
         </div>
 
-
+        <div class="eventDescription" v-if="eventsDetail">
+            <div class="eventName">{{eventsDetail.eventName}}</div>
+            <div class="tagline">{{eventsDetail.tagline}}</div>
+            <div class="entryFee">Entry Fee: {{eventsDetail.entryFee}}</div>
+            <div class="teamSize">Team size: {{eventsDetail.teamSize}}</div>
+            <div class="rounds">
+                <div class="round" v-for="(round, index) in eventsDetail.rounds">
+                    <pre>{{round}}</pre>
+                </div>
+            </div>
+            <div class="notes" v-if="eventsDetail.notes">
+                Notes: <pre>{{eventsDetail.notes}}</pre>
+            </div>
+            <div class="managers">
+                <div class="manager" v-for="manager in eventsDetail.managers">
+                    <div class="name">{{manager.name}}</div>
+                    <div class="contact">{{manager.phone}}</div>
+                </div>
+            </div>
+            <div class="back" @click="eventsDetail = null">Back</div>
+        </div>
     </div>
 </template>
 
 <script>
-    import events from '../events'
+    import deptEvents from '../workshop'
 
   export default {
     name: "gobletOfEntertainment",
-    created() {
-
+    data() {
+        return {
+          deptEvents,
+          eventsDetail: null
+        }
     },
     mounted() {
       let t1 = new this.$gsap.TimelineMax()
