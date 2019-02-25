@@ -53,21 +53,21 @@
             url: 'halfWavePrince'
           },
           {
-            name: "M. A. D. Hollows",
-            url: 'madHollows'
+            name: 'Goblet of Workshops',
+            url: 'gobletOfWorkshops'
           },
           {
             name: "Scamander\'s Suitcase",
             url: 'scamandersSuitcase'
           },
           {
+            name: "M. A. D. Hollows",
+            url: 'madHollows'
+          },
+          {
             name: "Order of Ohms",
             url: 'orderOfOhms'
           },
-          {
-            name: 'Goblet of Workshops',
-            url: 'gobletOfWorkshops'
-          }
         ]
       }
     },
