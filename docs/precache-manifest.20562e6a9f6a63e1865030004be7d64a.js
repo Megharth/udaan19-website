@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/img/smoke.6584800f.png"
   },
   {
-    "revision": "2b69a0974484f26cb4de6842af1664dd",
-    "url": "/favicon.png"
-  },
-  {
-    "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
+    "revision": "735ab4f94fbcd57074377afca324c813",
     "url": "/robots.txt"
   },
   {
+    "revision": "96688cd2596f865dfceff7a279e8eef8",
+    "url": "/img/Smoke30Frames_0.96688cd2.png"
+  },
+  {
     "revision": "ae2e5c7dacf326bfd3f7",
-    "url": "/js/chunk-vendors.6f4fe25c.js"
+    "url": "/css/chunk-vendors.6b0c58bc.css"
   },
   {
     "revision": "3e206e7186c3341045a7e87ebbe95172",
@@ -120,12 +120,12 @@ self.__precacheManifest = [
     "url": "/img/Scamander_Suitcase_s.db3dcf53.png"
   },
   {
-    "revision": "e36f7355098dcff9d9a7",
-    "url": "/js/app.1e25021f.js"
+    "revision": "1a6b4d968fbc6c007011",
+    "url": "/js/app.b47df0ae.js"
   },
   {
-    "revision": "96688cd2596f865dfceff7a279e8eef8",
-    "url": "/img/Smoke30Frames_0.96688cd2.png"
+    "revision": "ae2e5c7dacf326bfd3f7",
+    "url": "/js/chunk-vendors.6f4fe25c.js"
   },
   {
     "revision": "8db216fe70429724fa1d970151db1b3e",
@@ -204,6 +204,14 @@ self.__precacheManifest = [
     "url": "/img/logo.a40c61e7.png"
   },
   {
+    "revision": "f24925f355722ea919ad27aa28512a4a",
+    "url": "/img/8.f24925f3.png"
+  },
+  {
+    "revision": "19ed0041bd5b4bbf19cc76bf4fee87e1",
+    "url": "/img/18.19ed0041.png"
+  },
+  {
     "revision": "c3492d69d481c902d1efd4c060e6ef31",
     "url": "/img/Builder_of_Azkaban.c3492d69.png"
   },
@@ -216,10 +224,6 @@ self.__precacheManifest = [
     "url": "/img/snape.05857735.svg"
   },
   {
-    "revision": "19ed0041bd5b4bbf19cc76bf4fee87e1",
-    "url": "/img/18.19ed0041.png"
-  },
-  {
     "revision": "f8df21490b911ab243d0eb153b9d4f75",
     "url": "/img/hat.f8df2149.png"
   },
@@ -228,19 +232,15 @@ self.__precacheManifest = [
     "url": "/img/nametag.ad9ecb7a.png"
   },
   {
-    "revision": "f24925f355722ea919ad27aa28512a4a",
-    "url": "/img/8.f24925f3.png"
-  },
-  {
-    "revision": "f0d2c7da5b9b4a96f4fdf24ab9064709",
+    "revision": "c714f17c486f00d318249c45e0d58e87",
     "url": "/index.html"
   },
   {
-    "revision": "ae2e5c7dacf326bfd3f7",
-    "url": "/css/chunk-vendors.6b0c58bc.css"
+    "revision": "2b69a0974484f26cb4de6842af1664dd",
+    "url": "/favicon.png"
   },
   {
-    "revision": "e36f7355098dcff9d9a7",
-    "url": "/css/app.9b3cee43.css"
+    "revision": "1a6b4d968fbc6c007011",
+    "url": "/css/app.fbc67ec0.css"
   }
 ];
