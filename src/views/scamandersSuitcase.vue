@@ -1,6 +1,9 @@
 <template>
     <div id="scamandersSuitcase">
         <introComponent :dept="dept"></introComponent>
+        <div class="backArrow" @click="$router.push('/')">
+            <span><</span>
+        </div>
         <div class="events">
             <div class="event" v-for="event in deptEvents" @click="eventsDetail = event">
                 <div>{{ event.eventName }}</div>
@@ -10,9 +13,10 @@
             <div class="eventDescription" v-if="eventsDetail">
                 <div class="eventName">{{eventsDetail.eventName}}</div>
                 <div class="tagline">{{ eventsDetail.tagline}}</div>
+                <div class="entryFee">Entry Fee: {{ eventsDetail.entryFee}}</div>
                 <div class="rounds">
                     <div class="round" v-for="(round, index) in eventsDetail.rounds">
-                        <span class="roundIndice">Round {{ index }} : </span>
+                        <span class="roundIndice">Round {{ index + 1 }} : </span>
                         {{round}}
                     </div>
                 </div>

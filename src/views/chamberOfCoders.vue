@@ -1,5 +1,8 @@
 <template>
     <div id="chamberOfCoders">
+        <div class="backArrow" @click="$router.push('/')">
+            <span><</span>
+        </div>
         <div class="logo">
             <img src="../assets/Chamber_of_coders.png" alt="" class="img-fluid">
             <div class="hat">
@@ -16,6 +19,7 @@
             <div class="eventDescription" v-if="eventsDetail">
                 <div class="eventName">{{eventsDetail.eventName}}</div>
                 <div class="tagline">{{eventsDetail.tagline}}</div>
+                <div class="entryFee">Entry Fee: {{eventsDetail.entryFee}}</div>
                 <div class="rounds mx-auto">
                     <div class="round" v-for="(round, index) in eventsDetail.rounds">
                         <span class="roundIndice">Round {{index + 1}} : </span> {{round}}

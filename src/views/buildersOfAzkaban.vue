@@ -1,5 +1,8 @@
 <template>
     <div id="buidersOfAzkaban">
+        <div class="backArrow" @click="$router.push('/')">
+            <span><</span>
+        </div>
         <div class="rain"></div>
         <introComponent :dept="dept"></introComponent>
         <!--<div class="heading">
@@ -13,6 +16,7 @@
             <div class="eventDescription" v-if="eventsDetail">
                 <div class="eventName">{{ eventsDetail.eventName }}</div>
                 <div class="tagline">{{ eventsDetail.tagline }}</div>
+                <div class="entryFee">Entry Fee: {{ eventsDetail.entryFee }}</div>
                 <div class="event-content">
                     <div class="rounds">
                         <div class="round" v-for="(round, index) in eventsDetail.rounds"><span class="roundIndice">Round {{index + 1}} : </span>{{ round}}</div>

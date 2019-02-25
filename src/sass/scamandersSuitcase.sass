@@ -7,9 +7,35 @@
   background: url("../assets/scamandersSuitcase.png") no-repeat center center
   background-size: cover
   font-family: 'fantasticBeast', sans-serif
+  overflow: hidden
 //color: white
 #introComponent
   color: white
+
+.backArrow
+  position: absolute
+  top: 10px
+  left: 20px
+  height: 40px
+  width: 40px
+  z-index: 2
+  border: 3px solid #ffffff
+  border-radius: 50%
+  text-align: center
+  font-weight: bolder
+  font-size: 30px
+  color: white
+  box-shadow: 0 4px 4px rgba(0,0,0,0.25)
+  transition: all 0.2s ease-out
+  &:hover
+    transform: scale(1.2)
+    background: orangered
+  span
+    display: block
+    font-family: dumbledore, sans-serif
+    margin-top: -5px
+    margin-left: -4px
+
 .events
   position: absolute
   height: 50%
@@ -50,7 +76,6 @@
   background: white
   transform: translate(-50%, -50%)
   text-align: center
-  box-shadow: 0 4px 4px rgba(0,0,0,0.25)
   background: url("../assets/page.png") no-repeat center center
   background-size: cover
   .eventName
@@ -81,7 +106,7 @@
       font-weight: bolder
   .back
     position: absolute
-    bottom: 10%
+    bottom: 5%
     left: 50%
     transform: translateX(-50%)
     font-weight: bolder

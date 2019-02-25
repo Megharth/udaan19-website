@@ -47,7 +47,7 @@
                     <!--</div>-->
                 <!--</div>-->
                 <div id="footer">
-                    <div class="footer-headline">Some amazing headline And facts</div>
+                    <div class="footer-headline">See you on 13, 14 and 15 March</div>
                     <div class="sub-title">Follow us on</div>
                     <div class="social-handles">
                         <a href="https://www.youtube.com/channel/UCnqRgS6O0MGF8sTYb_fHjWA">

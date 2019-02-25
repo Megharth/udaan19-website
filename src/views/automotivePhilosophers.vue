@@ -1,16 +1,20 @@
 <template>
     <div id="automotivePhilosophers">
+        <div class="backArrow" @click="$router.push('/')">
+            <span><</span>
+        </div>
         <img src="../assets/station.png" alt="" class="bgImage">
         <div class="events">
             <div class="event" v-for="event in deptEvents" @click="eventsDetail = event">
                 <span>{{event.eventName}}</span>
             </div>
         </div>
-
         <transition name="move">
             <div class="eventDescription" v-if="eventsDetail">
                 <div class="eventName">{{eventsDetail.eventName}}</div>
                 <div class="tagline">{{eventsDetail.tagline}}</div>
+                <div class="entryFee">Entry Fee: {{eventsDetail.entryFee}}</div>
+                <div class="teamSize">Team size: {{eventsDetail.teamSize}}</div>
                 <div class="rounds">
                     <div class="round" v-for="(round, index) in eventsDetail.rounds">
                         <span class="roundIndice">Round {{index + 1}} : </span>

@@ -717,12 +717,12 @@
     ],
     "tagline": "“Awaken the genius within you”",
     "teamSize": 1,
-    "notes": null
+    "notes": "Bring your Resume!"
   },
   {
     "_id": "5c6ab005a034092f8c482ee8",
     "participants": [],
-    "department": "ee",
+    "department": "non-tech",
     "prizeMoney": [
       20
     ],
@@ -825,7 +825,7 @@
   {
     "_id": "5c6ab005a034092f8c482eeb",
     "participants": [],
-    "department": "cpit",
+    "department": "non-tech",
     "prizeMoney": [
       20
     ],
@@ -891,7 +891,7 @@
   {
     "_id": "5c6ab005a034092f8c482eed",
     "participants": [],
-    "department": "cpit",
+    "department": "non-tech",
     "prizeMoney": [
       20
     ],
@@ -918,7 +918,7 @@
   {
     "_id": "5c6ab005a034092f8c482eee",
     "participants": [],
-    "department": "cpit",
+    "department": "non-tech",
     "prizeMoney": [
       20
     ],
@@ -951,7 +951,7 @@
   {
     "_id": "5c6ab005a034092f8c482eef",
     "participants": [],
-    "department": "ee",
+    "department": "non-tech",
     "prizeMoney": [
       20
     ],

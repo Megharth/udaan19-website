@@ -45,3 +45,12 @@ svg
     transform: scale(1)
   100%
     transform: scale(1.5)
+
+.fade-leave-active
+  animation: fade-out 1s linear forwards
+
+@keyframes fade-out
+  100%
+    opacity: 0
+    transform: translateY(1000px) scale(0)
+    display: none

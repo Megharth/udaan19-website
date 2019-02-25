@@ -9,6 +9,31 @@
   font-family: 'MagicSchool', sans-serif
 #introComponent
   color: white
+
+.backArrow
+  position: absolute
+  top: 10px
+  left: 20px
+  height: 40px
+  width: 40px
+  z-index: 2
+  border: 3px solid #ffffff
+  border-radius: 50%
+  text-align: center
+  font-weight: bolder
+  font-size: 30px
+  color: white
+  box-shadow: 0 4px 4px rgba(0,0,0,0.25)
+  transition: all 0.2s ease-out
+  &:hover
+    transform: scale(1.2)
+    background: orangered
+  span
+    display: block
+    font-family: dumbledore, sans-serif
+    margin-top: -5px
+    margin-left: -4px
+
 .events
   position: absolute
   top: 50%
@@ -56,11 +81,14 @@
   box-shadow: 0 4px 4px rgba(0,0,0,0.25)
   text-align: center
   .eventName
-    margin-top: 40px
+    margin-top: 60px
     font-size: 38px
     font-weight: bolder
-  .tagline
+  .tagline, .entryFee
     font-size: 22px
+  .entryFee
+    font-family: dumbledore, sans-serif
+    font-style: italic
   .rounds
     width: 80%
     text-align: justify
@@ -78,7 +106,7 @@
       font-family: 'dumbledore', sans-serif
   .back
     position: absolute
-    bottom: 5%
+    bottom: 0%
     left: 50%
     transform: translate(-50%, 0)
     font-size: 28px
@@ -110,4 +138,7 @@
     .rounds
       .round
         padding: 5px
+    .managers
+      .manager
+        margin: 5px
 
