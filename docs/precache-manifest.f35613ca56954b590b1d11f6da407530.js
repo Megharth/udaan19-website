@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "db3dcf530631abf18adaec4e019c2124",
-    "url": "/img/Scamander_Suitcase_s.db3dcf53.png"
+    "revision": "6584800fac5a02d2d8772c1171f0bec7",
+    "url": "/img/smoke.6584800f.png"
   },
   {
-    "revision": "735ab4f94fbcd57074377afca324c813",
+    "revision": "2b69a0974484f26cb4de6842af1664dd",
+    "url": "/favicon.png"
+  },
+  {
+    "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
     "url": "/robots.txt"
   },
   {
-    "revision": "8db216fe70429724fa1d970151db1b3e",
-    "url": "/img/Auto_Motive_Philosopher.8db216fe.png"
-  },
-  {
-    "revision": "13b93a56e46bc078b56c",
-    "url": "/css/chunk-vendors.3259982a.css"
+    "revision": "ae2e5c7dacf326bfd3f7",
+    "url": "/js/chunk-vendors.6f4fe25c.js"
   },
   {
     "revision": "3e206e7186c3341045a7e87ebbe95172",
@@ -22,10 +22,6 @@ self.__precacheManifest = [
   {
     "revision": "d04f031565b43dd85818a430c8198a1c",
     "url": "/img/scamandersSuitcase.d04f0315.png"
-  },
-  {
-    "revision": "8d4a0572da1883f33f64765491748532",
-    "url": "/img/page.8d4a0572.png"
   },
   {
     "revision": "c9e56fbbdce5bbc2b2bf316ba681389d",
@@ -40,12 +36,16 @@ self.__precacheManifest = [
     "url": "/img/page2.4fd495c4.jpg"
   },
   {
+    "revision": "75673e5ff5e07bee6c13b0f60fd694b2",
+    "url": "/fonts/dum1.75673e5f.ttf"
+  },
+  {
     "revision": "202e23f4a87ad5ea9830b8e20284c49f",
     "url": "/img/9.202e23f4.png"
   },
   {
-    "revision": "75673e5ff5e07bee6c13b0f60fd694b2",
-    "url": "/fonts/dum1.75673e5f.ttf"
+    "revision": "3458fba5abb60517f7b03f4f48609674",
+    "url": "/img/gobletOfFireBg.3458fba5.jpg"
   },
   {
     "revision": "d3b542a2095dfb2aece11f35c423a48e",
@@ -80,16 +80,16 @@ self.__precacheManifest = [
     "url": "/img/deathlyHollows.ced0b95e.jpg"
   },
   {
+    "revision": "8d4a0572da1883f33f64765491748532",
+    "url": "/img/page.8d4a0572.png"
+  },
+  {
     "revision": "70569f2dbe884708e5bfde32bff00176",
     "url": "/img/M.A.D._Hollows.70569f2d.png"
   },
   {
     "revision": "432636baad0b14a3e683a5f6a30776a1",
     "url": "/img/Advanced_Potion_Making.432636ba.png"
-  },
-  {
-    "revision": "12af3ef3d643151f2e838daf58242165",
-    "url": "/img/fire-bird-phoenix-fantasy-creature-illustration2.12af3ef3.jpg"
   },
   {
     "revision": "b03b63ac81bdfc46d37b00ad154fb57e",
@@ -108,20 +108,28 @@ self.__precacheManifest = [
     "url": "/img/walk.36ab5007.png"
   },
   {
-    "revision": "6584800fac5a02d2d8772c1171f0bec7",
-    "url": "/img/smoke.6584800f.png"
-  },
-  {
     "revision": "1cccd4914dcbe904cdf1e643b4076f53",
     "url": "/img/11.1cccd491.png"
   },
   {
-    "revision": "1338185a8d5036927f5e",
-    "url": "/js/app.3fd9a896.js"
+    "revision": "12af3ef3d643151f2e838daf58242165",
+    "url": "/img/fire-bird-phoenix-fantasy-creature-illustration2.12af3ef3.jpg"
   },
   {
-    "revision": "13b93a56e46bc078b56c",
-    "url": "/js/chunk-vendors.86ed6ce7.js"
+    "revision": "db3dcf530631abf18adaec4e019c2124",
+    "url": "/img/Scamander_Suitcase_s.db3dcf53.png"
+  },
+  {
+    "revision": "e36f7355098dcff9d9a7",
+    "url": "/js/app.1e25021f.js"
+  },
+  {
+    "revision": "96688cd2596f865dfceff7a279e8eef8",
+    "url": "/img/Smoke30Frames_0.96688cd2.png"
+  },
+  {
+    "revision": "8db216fe70429724fa1d970151db1b3e",
+    "url": "/img/Auto_Motive_Philosopher.8db216fe.png"
   },
   {
     "revision": "893745595c83e1208bd130b8ac6916e1",
@@ -140,22 +148,6 @@ self.__precacheManifest = [
     "url": "/img/rain.6980f38e.png"
   },
   {
-    "revision": "3c2d56587469c0ffaf1e7b68046a7d14",
-    "url": "/img/17.3c2d5658.png"
-  },
-  {
-    "revision": "f24925f355722ea919ad27aa28512a4a",
-    "url": "/img/8.f24925f3.png"
-  },
-  {
-    "revision": "19ed0041bd5b4bbf19cc76bf4fee87e1",
-    "url": "/img/18.19ed0041.png"
-  },
-  {
-    "revision": "1d6ef71bf1572bee5175f25e8fc28f08",
-    "url": "/img/9-1.1d6ef71b.png"
-  },
-  {
     "revision": "86eb8929bdb5a735d6516f631d1615d1",
     "url": "/img/goblet.86eb8929.png"
   },
@@ -164,28 +156,36 @@ self.__precacheManifest = [
     "url": "/img/station.91f9bcbf.png"
   },
   {
-    "revision": "96688cd2596f865dfceff7a279e8eef8",
-    "url": "/img/Smoke30Frames_0.96688cd2.png"
+    "revision": "3c2d56587469c0ffaf1e7b68046a7d14",
+    "url": "/img/17.3c2d5658.png"
+  },
+  {
+    "revision": "1d6ef71bf1572bee5175f25e8fc28f08",
+    "url": "/img/9-1.1d6ef71b.png"
   },
   {
     "revision": "143984d3eeba293f150a9cd831c99483",
     "url": "/img/Chamber_of_coders.143984d3.png"
   },
   {
-    "revision": "3da891a069087edcda66ac0913f0c8ce",
-    "url": "/fonts/dum1ital.3da891a0.ttf"
-  },
-  {
-    "revision": "9c03db0ab9a6cec644ca26a17f810c9d",
-    "url": "/img/Azkaban_concept_art.9c03db0a.png"
-  },
-  {
     "revision": "d7bc260d3a9f5343011180232e5337b5",
     "url": "/img/Order_of_OHMS.d7bc260d.png"
   },
   {
+    "revision": "b18a47a6ec9b22bb8e7d78bc87774309",
+    "url": "/img/teamBg.b18a47a6.jpg"
+  },
+  {
+    "revision": "3da891a069087edcda66ac0913f0c8ce",
+    "url": "/fonts/dum1ital.3da891a0.ttf"
+  },
+  {
     "revision": "ba18a9acbc902e45b033c231ee03600f",
     "url": "/img/chamberOfCodersBg.ba18a9ac.jpg"
+  },
+  {
+    "revision": "9c03db0ab9a6cec644ca26a17f810c9d",
+    "url": "/img/Azkaban_concept_art.9c03db0a.png"
   },
   {
     "revision": "c8f8eb23723e6dcdb9f4be208bf2b1ba",
@@ -216,6 +216,10 @@ self.__precacheManifest = [
     "url": "/img/snape.05857735.svg"
   },
   {
+    "revision": "19ed0041bd5b4bbf19cc76bf4fee87e1",
+    "url": "/img/18.19ed0041.png"
+  },
+  {
     "revision": "f8df21490b911ab243d0eb153b9d4f75",
     "url": "/img/hat.f8df2149.png"
   },
@@ -224,15 +228,19 @@ self.__precacheManifest = [
     "url": "/img/nametag.ad9ecb7a.png"
   },
   {
-    "revision": "64d8e14269810825434c7118f7039778",
+    "revision": "f24925f355722ea919ad27aa28512a4a",
+    "url": "/img/8.f24925f3.png"
+  },
+  {
+    "revision": "f0d2c7da5b9b4a96f4fdf24ab9064709",
     "url": "/index.html"
   },
   {
-    "revision": "2b69a0974484f26cb4de6842af1664dd",
-    "url": "/favicon.png"
+    "revision": "ae2e5c7dacf326bfd3f7",
+    "url": "/css/chunk-vendors.6b0c58bc.css"
   },
   {
-    "revision": "1338185a8d5036927f5e",
-    "url": "/css/app.bfea7aa8.css"
+    "revision": "e36f7355098dcff9d9a7",
+    "url": "/css/app.9b3cee43.css"
   }
 ];
