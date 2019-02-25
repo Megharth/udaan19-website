@@ -1,69 +1,78 @@
 <template>
     <div id="main">
-        <section>
-            <div id="landing">
-                <div class="pin-scene">
-                    <div class="bird-container bird-container--one">
-                        <div class="bird bird--one"></div>
-                    </div>
+        <loadingComponent></loadingComponent>
+        <div class="mainContent">
+            <section>
+                <div id="landing">
+                    <div class="pin-scene">
+                        <div class="bird-container bird-container--one">
+                            <div class="bird bird--one"></div>
+                        </div>
 
-                    <div class="bird-container bird-container--two">
-                        <div class="bird bird--two"></div>
-                    </div>
+                        <div class="bird-container bird-container--two">
+                            <div class="bird bird--two"></div>
+                        </div>
 
-                    <div class="bird-container bird-container--three">
-                        <div class="bird bird--three"></div>
-                    </div>
+                        <div class="bird-container bird-container--three">
+                            <div class="bird bird--three"></div>
+                        </div>
 
-                    <div class="bird-container bird-container--four">
-                        <div class="bird bird--four"></div>
-                    </div>
+                        <div class="bird-container bird-container--four">
+                            <div class="bird bird--four"></div>
+                        </div>
 
-                    <div class="bg-image"></div>
-                    <div class="udaan-logo">
-                        <img src="../assets/logo.png" alt="udaanLogo" class="img-fluid">
+                        <div class="bg-image"></div>
+                        <div class="udaan-logo">
+                            <img src="../assets/logo.png" alt="udaanLogo" class="img-fluid">
+                        </div>
+                        <!--<div class="quidditch-ball"></div>-->
+                        <!--<div class="demantadors">-->
+                        <!--<div class="demantador">-->
+                        <!--<ul>-->
+                        <!--<li></li>-->
+                        <!--<li></li>-->
+                        <!--<li></li>-->
+                        <!--<li></li>-->
+                        <!--</ul>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="coming-soon">Coming soon</div>-->
                     </div>
-                    <!--<div class="quidditch-ball"></div>-->
-                    <!--<div class="demantadors">-->
-                    <!--<div class="demantador">-->
-                    <!--<ul>-->
-                    <!--<li></li>-->
-                    <!--<li></li>-->
-                    <!--<li></li>-->
-                    <!--<li></li>-->
-                    <!--</ul>-->
-                    <!--</div>-->
-                    <!--</div>-->
-                    <!--<div class="coming-soon">Coming soon</div>-->
                 </div>
-            </div>
-        </section>
-        <section>
-            <div id="about">
-                <aboutComponent class="aboutComponent"></aboutComponent>
-                <div class="particles">
-                    <div class="particle" v-for="n in 50"></div>
+            </section>
+            <section>
+                <div id="about">
+                    <aboutComponent class="aboutComponent"></aboutComponent>
+                    <div class="particles">
+                        <div class="particle" v-for="n in 50"></div>
+                    </div>
                 </div>
-            </div>
-        </section>
-        <section>
-            <mapComponent></mapComponent>
-        </section>
+            </section>
+            <section>
+                <mapComponent></mapComponent>
+            </section>
+        </div>
     </div>
 </template>
 
 <script>
   import aboutComponent from '../components/aboutComponent'
   import mapComponent from '../components/mapComponent'
+  import loadingComponent from '../components/loadingComponent'
 
+
+  window.onload = function() {
+    document.querySelector('#loading').classList.add('fade-out')
+    document.querySelector('.mainContent').style.visibility = 'visible'
+  }
   export default {
     name: "Main",
     components: {
       aboutComponent,
-      mapComponent
+      mapComponent,
+      loadingComponent,
     },
     mounted() {
-
       //    COMING SOON ANIMATION
 
       /*let t2 = new this.$gsap.TimelineMax({
