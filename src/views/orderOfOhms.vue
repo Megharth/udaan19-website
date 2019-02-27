@@ -58,7 +58,6 @@
                         </div>
                     </div>
                     <div class="entryFee">Entry Fee: {{ eventsDetail.entryFee }}</div>
-                    <div class="entryFee">Entry Fee: {{ eventsDetail.entryFee }}</div>
                     <div class="notes" v-if="eventsDetail.notes">
                         Notes: <pre>{{eventsDetail.notes}}</pre>
                     </div>
@@ -73,7 +72,7 @@
                     <div>Approach With Extreme Caution!</div>
                     <div>Do not attempt to use magic in this event</div>
                 </div>
-                <div class="back" @click="eventsDetail = null">Back</div>
+                <div class="back" @click="eventsDetail = null">&#10008;</div>
             </div>
         </transition>
     </div>

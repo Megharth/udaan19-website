@@ -61,7 +61,6 @@
     height: 100vh
 /*width: 100%*/
 
-
 @mixin stroke-animation ($stroke-dashoffset, $time, $fill)
   animation: stroke-animation $time cubic-bezier(0,0.23,1,0.1)
   @keyframes stroke-animation
@@ -129,9 +128,14 @@
 
 .page-2-right
   overflow: scroll
+  .back
+    position: absolute
+    font-size: 1.8rem
+    left: 52%
+    bottom: 90%
 .eventDescription
   position: absolute
-  top: 10%
+  top: 5%
   width: 62%
   text-align: center
   overflow: scroll !important
@@ -145,6 +149,7 @@
     font-size: 22px
   .rounds
     padding-top: 20px
+    padding-right: 5px
     width: 90%
     overflow: scroll !important
     .round-indice
@@ -163,9 +168,7 @@
       font-family: dumbledore, sans-serif
       font-style: italic
 
-  .back
-    font-size: 25px
-    font-weight: bolder
+
 @media (min-width: 320px) and (max-width: 540px)
   .left-side, .right-side
     width: 100%
@@ -247,3 +250,11 @@
   #snape
     height: 200px
     left: 15%
+
+
+@media (min-width: 320px) and (max-width: 640px)
+  .page-2-right
+    .back
+      position: absolute
+      left: 85%
+      bottom: 89%

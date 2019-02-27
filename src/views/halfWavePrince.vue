@@ -194,8 +194,8 @@
                             <div class="contact">{{manager.phone}}</div>
                         </div>
                     </div>
-                    <div class="back" @click="t2.reverse()">Back</div>
                 </div>
+                <div class="back" @click="t2.reverse()">&#10008;</div>
             </div>
             <!--EVENTS PAGE-->
             <!--<div id="eventPage">-->

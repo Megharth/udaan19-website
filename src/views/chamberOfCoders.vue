@@ -36,7 +36,7 @@
                         <div class="contact">{{manager.phone}}</div>
                     </div>
                 </div>
-                <div class="back" @click="eventsDetail = null">Back</div>
+                <div class="back" @click="eventsDetail = null">&#10008;</div>
             </div>
         </transition>
     </div>

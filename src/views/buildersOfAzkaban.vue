@@ -5,9 +5,6 @@
         </div>
         <div class="rain"></div>
         <introComponent :dept="dept"></introComponent>
-        <!--<div class="heading">
-            <p>Welcome to <br>Builders of Azkaban</p>
-        </div>-->
         <div class="events">
             <div class="event" v-for="event in deptEvents" @click="eventsDetail = event">{{ event.eventName }}</div>
         </div>
@@ -39,7 +36,7 @@
                     <div>Approach With Extreme Caution!</div>
                     <div>Do not attempt to use magic in this event</div>
                 </div>
-                <div class="back" @click="eventsDetail = null">Back</div>
+                <div class="back" @click="eventsDetail = null">&#10008;</div>
             </div>
         </transition>
     </div>
