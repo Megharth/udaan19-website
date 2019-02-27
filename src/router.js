@@ -10,6 +10,7 @@ import gobletOfWorkshops from './views/gobletOfWorkshops'
 import orderOfOhms from "./views/orderOfOhms"
 import chamberOfCoders from './views/chamberOfCoders'
 import team from './views/team'
+import mapComponent from './components/mapComponent'
 
 Vue.use(Router)
 
@@ -64,6 +65,11 @@ export default new Router({
       path: '/team',
       name: 'team',
       component: team
+    },
+    {
+      path: '/map',
+      name: 'map',
+      component: mapComponent
     }
   ]
 })

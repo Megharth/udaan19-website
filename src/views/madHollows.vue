@@ -1,6 +1,6 @@
 <template>
     <div id="madHollows">
-        <div class="backArrow" @click="$router.push('/')">
+        <div class="backArrow" @click="$router.push('/map')">
             <span><</span>
         </div>
         <introComponent :dept="dept"></introComponent>

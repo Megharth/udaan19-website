@@ -1,6 +1,6 @@
 <template>
     <div id="buidersOfAzkaban">
-        <div class="backArrow" @click="$router.push('/')">
+        <div class="backArrow" @click="$router.push('/map')">
             <span><</span>
         </div>
         <div class="rain"></div>

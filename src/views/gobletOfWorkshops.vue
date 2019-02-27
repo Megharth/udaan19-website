@@ -1,5 +1,8 @@
 <template>
     <div id="gobletOfEntertainment">
+        <div class="backArrow" @click="$router.push('/map')">
+            <span><</span>
+        </div>
         <div class="goblet">
              <div class="flame">
                 <span v-for="n in 100" :style="{'--n':n, '--rnd': Math.random()}"></span>

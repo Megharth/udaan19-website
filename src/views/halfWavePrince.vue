@@ -1,6 +1,6 @@
 <template>
     <div id="halfWavePrince">
-        <div class="backArrow" @click="$router.push('/')">
+        <div class="backArrow" @click="$router.push('/map')">
             <span><</span>
         </div>
         <div class="book">

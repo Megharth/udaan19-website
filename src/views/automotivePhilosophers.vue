@@ -1,6 +1,6 @@
 <template>
     <div id="automotivePhilosophers">
-        <div class="backArrow" @click="$router.push('/')">
+        <div class="backArrow" @click="$router.push('/map')">
             <span><</span>
         </div>
         <img src="../assets/station.png" alt="" class="bgImage">

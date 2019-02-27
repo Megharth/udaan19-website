@@ -1,7 +1,7 @@
 <template>
     <div id="scamandersSuitcase">
         <introComponent :dept="dept"></introComponent>
-        <div class="backArrow" @click="$router.push('/')">
+        <div class="backArrow" @click="$router.push('/map')">
             <span><</span>
         </div>
         <div class="events">
