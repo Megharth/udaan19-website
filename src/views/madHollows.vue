@@ -10,23 +10,25 @@
             </div>
         </div>
         <transition name="swirl">
-            <div class="eventDescription" v-if="eventsDetail">
-                <div class="eventName">{{ eventsDetail.eventName }}</div>
-                <div class="tagline">{{ eventsDetail.tagline }}</div>
-                <div class="entryFee">Entry Fee: {{ eventsDetail.entryFee }}/ {{ eventsDetail.teamSize}}</div>
-                <div class="rounds mx-auto">
-                    <div class="round" v-for="(round, index) in eventsDetail.rounds"><span class="roundIndice">Round {{index + 1}} :</span> {{ round }}</div>
-                </div>
-                <div class="notes" v-if="eventsDetail.notes">
-                    <div class="roundIndice">Notes:</div> <pre>{{eventsDetail.notes}}</pre>
-                </div>
-                <div class="managers">
-                    <div class="manager" v-for="manager in eventsDetail.managers">
-                        <div class="name">{{manager.name}}</div>
-                        <div class="contact">{{manager.phone}}</div>
+            <div class="ed" v-if="eventsDetail">
+                <div class="eventDescription" v-if="eventsDetail">
+                    <div class="eventName">{{ eventsDetail.eventName }}</div>
+                    <div class="tagline">{{ eventsDetail.tagline }}</div>
+                    <div class="entryFee">Entry Fee: {{ eventsDetail.entryFee }}/ {{ eventsDetail.teamSize}}</div>
+                    <div class="rounds mx-auto">
+                        <div class="round" v-for="(round, index) in eventsDetail.rounds"><span class="roundIndice">Round {{index + 1}} :</span> {{ round }}</div>
+                    </div>
+                    <div class="notes" v-if="eventsDetail.notes">
+                        <div class="roundIndice">Notes:</div> <pre>{{eventsDetail.notes}}</pre>
+                    </div>
+                    <div class="managers">
+                        <div class="manager" v-for="manager in eventsDetail.managers">
+                            <div class="name">{{manager.name}}</div>
+                            <div class="contact">{{manager.phone}}</div>
+                        </div>
                     </div>
                 </div>
-                <div class="back" @click="eventsDetail = null">&#10008;</div>
+                <div class="back" @click="eventsDetail = null">&#10006;</div>
             </div>
         </transition>
     </div>
