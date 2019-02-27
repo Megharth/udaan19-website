@@ -28,7 +28,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="back" @click="eventsDetail = null">&#10006;</div>
+                <div class="back" @click="eventsDetail = null">&#10008;</div>
             </div>
         </transition>
     </div>
