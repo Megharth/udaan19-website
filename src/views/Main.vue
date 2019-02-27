@@ -23,6 +23,11 @@
                     <div class="udaan-logo">
                         <img src="../assets/logo.png" alt="udaanLogo" class="img-fluid">
                     </div>
+                    <div class="mouse">
+                        <div class="mouse-icon">
+                            <span class="mouse-wheel"></span>
+                        </div>
+                    </div>
                     <!--<div class="quidditch-ball"></div>-->
                     <!--<div class="demantadors">-->
                     <!--<div class="demantador">-->
