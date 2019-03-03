@@ -58,7 +58,7 @@
                         </div>
                     </div>
                     <div class="entryFee">Entry Fee: {{ eventsDetail.entryFee }}</div>
-                    <div class="entryFee">Entry Fee: {{ eventsDetail.entryFee }}</div>
+                    <div class="entryFee">Team Size: {{ eventsDetail.teamSize }}</div>
                     <div class="notes" v-if="eventsDetail.notes">
                         Notes: <pre>{{eventsDetail.notes}}</pre>
                     </div>

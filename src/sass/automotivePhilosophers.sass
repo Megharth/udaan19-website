@@ -6,10 +6,13 @@
   //background: url("../assets/station.png") no-repeat center center
   //background-size: cover
 
+.bgImage
+  height: 100%
+  width: 100%
 .events
   position: absolute
   height: 50%
-  width: 60%
+  width: 100%
   top: 40%
   left: 50%
   transform: translate(-50%, -50%)
@@ -67,11 +70,6 @@
       display: inline-block
       margin: 10px
 
-  .back
-    position: absolute
-    bottom: 10%
-    left: 50%
-
 .move-enter-active
   animation: move-in 0.5s linear
 
@@ -99,4 +97,5 @@
     position: unset !important
     padding: 10px
   .bgImage
+    width: unset
     transform: translateX(-30%) !important

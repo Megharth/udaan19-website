@@ -184,7 +184,7 @@
                 <div class="eventDescription" v-if="event">
                     <div class="eventName">{{ event.eventName }}</div>
                     <div class="tagline">{{event.tagline}}</div>
-                    <div class="entryFee">Entry Fee: {{event.entryFee}}</div>
+                    <div class="entryFee">Entry Fee: {{event.entryFee}}/{{event.teamSize}}</div>
                     <div class="rounds mx-auto">
                         <div class="round" v-for="(round, index) in event.rounds"><span class="round-indice">Round {{index + 1}}: </span>{{round}}</div>
                     </div>

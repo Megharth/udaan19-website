@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/img/Auto_Motive_Philosopher.8db216fe.png"
   },
   {
-    "revision": "2b69a0974484f26cb4de6842af1664dd",
-    "url": "/favicon.png"
-  },
-  {
-    "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
+    "revision": "735ab4f94fbcd57074377afca324c813",
     "url": "/robots.txt"
   },
   {
+    "revision": "893745595c83e1208bd130b8ac6916e1",
+    "url": "/img/9-3.89374559.png"
+  },
+  {
     "revision": "ae2e5c7dacf326bfd3f7",
-    "url": "/js/chunk-vendors.6f4fe25c.js"
+    "url": "/css/chunk-vendors.6b0c58bc.css"
   },
   {
     "revision": "3e206e7186c3341045a7e87ebbe95172",
@@ -80,10 +80,6 @@ self.__precacheManifest = [
     "url": "/fonts/ParryHotter.4834f12f.ttf"
   },
   {
-    "revision": "12af3ef3d643151f2e838daf58242165",
-    "url": "/img/fire-bird-phoenix-fantasy-creature-illustration2.12af3ef3.jpg"
-  },
-  {
     "revision": "ced0b95e15c82cceeba3a2994ee7dd1c",
     "url": "/img/deathlyHollows.ced0b95e.jpg"
   },
@@ -116,16 +112,20 @@ self.__precacheManifest = [
     "url": "/img/11.1cccd491.png"
   },
   {
+    "revision": "12af3ef3d643151f2e838daf58242165",
+    "url": "/img/fire-bird-phoenix-fantasy-creature-illustration2.12af3ef3.jpg"
+  },
+  {
     "revision": "db3dcf530631abf18adaec4e019c2124",
     "url": "/img/Scamander_Suitcase_s.db3dcf53.png"
   },
   {
-    "revision": "e5a7440c0673f617f838",
-    "url": "/js/app.b242df04.js"
+    "revision": "5123408a5570f3bd37c6",
+    "url": "/js/app.d4956bc5.js"
   },
   {
-    "revision": "893745595c83e1208bd130b8ac6916e1",
-    "url": "/img/9-3.89374559.png"
+    "revision": "ae2e5c7dacf326bfd3f7",
+    "url": "/js/chunk-vendors.6f4fe25c.js"
   },
   {
     "revision": "c2e93cff064f75573cf7ca981647f408",
@@ -232,15 +232,15 @@ self.__precacheManifest = [
     "url": "/img/nametag.ad9ecb7a.png"
   },
   {
-    "revision": "93b62e2ba4265aa503e93813f4789861",
+    "revision": "a5fb4b30d22cad34ebd7b3ddc111c331",
     "url": "/index.html"
   },
   {
-    "revision": "ae2e5c7dacf326bfd3f7",
-    "url": "/css/chunk-vendors.6b0c58bc.css"
+    "revision": "2b69a0974484f26cb4de6842af1664dd",
+    "url": "/favicon.png"
   },
   {
-    "revision": "e5a7440c0673f617f838",
-    "url": "/css/app.d983e60c.css"
+    "revision": "5123408a5570f3bd37c6",
+    "url": "/css/app.a69aef92.css"
   }
 ];
