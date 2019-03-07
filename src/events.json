@@ -123,7 +123,9 @@
         "phone": "8866772450"
       }
     ],
-    "rounds": [],
+    "rounds": [
+      "Contraption (Motion transfer by using maximum mechanisms) specification: Height 4 feet, Length: 9 feet, width: 6 feet, Minimum running time: 30 secs Example material: Dominoes, Marbles, Balls, Plastic Gear, Plastic pulley, Magnet(Any one) Not  allowed material: Electrical circuit"
+    ],
     "tagline": "Let's play with the Law of Nature",
     "teamSize": 4,
     "notes": "Rule Book link: https://drive.google.com/file/d/1qRhiJ2s0cMnPQ16IgnFNCFXFvOLt2m_p/view\nDemo Video link: https://drive.google.com/file/d/1afcTqInd2jdbe0V_PN0kltdVKjDzRn68/view?usp=sharing"
@@ -1842,7 +1844,15 @@
     ],
     "tagline": "Roadie banega..?",
     "teamSize": 1,
-    "notes": null
+    "notes": null,
+    "round_2": [
+      [
+        "9537808991",
+        "9429958709",
+        "7069420096",
+        "9924972361"
+      ]
+    ]
   },
   {
     "_id": "5c6ab005a034092f8c482ed6",
@@ -2739,7 +2749,7 @@
     ],
     "tagline": "Curious ui/ux weber.",
     "teamSize": 1,
-    "notes": null
+    "notes": "Rulebook:\nhttps://drive.google.com/file/d/0B4Cb_VcuHDR-RWVvem41WWpKOVBGNmU5Vm5IVUFoRzhJUjZN/view?usp=drivesdk"
   },
   {
     "_id": "5c6ab005a034092f8c482eee",
@@ -3250,6 +3260,10 @@
       {
         "name": "Hardik Parmar",
         "phone": "7202041378"
+      },
+      {
+        "name": "Priyanka sharma",
+        "phone": "7046322180"
       }
     ],
     "rounds": [
@@ -4844,7 +4858,7 @@
       "\"Do you find yourself wanting to be equipped with skills to build a new-age technology device that is finding application across sectors ranging from military to entertainment?\\nDrones have always awed people and wouldn't it be cooler if you knew to build one?\\nRegister for our workshop where you can learn how to build a drone from scratch and embrace the drone paradigm that is taking over the world, quite literally!\\nSession 1: Basic knowledge about Drones, there working and technical connections\\nSession 2: Hands on, on kits of the expert."
     ],
     "tagline": "Hands on workshop",
-    "teanSize": 1,
+    "teamSize": 1,
     "note": null
   }
 ]

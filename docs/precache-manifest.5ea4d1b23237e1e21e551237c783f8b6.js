@@ -24,6 +24,10 @@ self.__precacheManifest = [
     "url": "/img/scamandersSuitcase.d04f0315.png"
   },
   {
+    "revision": "78bfda3c79aaca12d935f6b8bffbc763",
+    "url": "/img/d5.78bfda3c.png"
+  },
+  {
     "revision": "c9e56fbbdce5bbc2b2bf316ba681389d",
     "url": "/img/1.c9e56fbb.png"
   },
@@ -42,6 +46,10 @@ self.__precacheManifest = [
   {
     "revision": "3458fba5abb60517f7b03f4f48609674",
     "url": "/img/gobletOfFireBg.3458fba5.jpg"
+  },
+  {
+    "revision": "43a8cf12d4fe667aff8a264be04a131d",
+    "url": "/img/d3.43a8cf12.png"
   },
   {
     "revision": "8d4a0572da1883f33f64765491748532",
@@ -96,6 +104,14 @@ self.__precacheManifest = [
     "url": "/img/halfWavePrince.b03b63ac.png"
   },
   {
+    "revision": "a4706df2ba64678c141c5f601f1c04dd",
+    "url": "/img/d6.a4706df2.png"
+  },
+  {
+    "revision": "e2fe46813d90e15ce0c879e36276ba99",
+    "url": "/img/d2.e2fe4681.png"
+  },
+  {
     "revision": "b204e2d30d817e6994ffd6da841ee218",
     "url": "/img/suitcaseTop.b204e2d3.png"
   },
@@ -120,8 +136,8 @@ self.__precacheManifest = [
     "url": "/img/Scamander_Suitcase_s.db3dcf53.png"
   },
   {
-    "revision": "5123408a5570f3bd37c6",
-    "url": "/js/app.d4956bc5.js"
+    "revision": "d6920d0fe5ecb2995e19",
+    "url": "/js/app.2c809de7.js"
   },
   {
     "revision": "ae2e5c7dacf326bfd3f7",
@@ -168,6 +184,10 @@ self.__precacheManifest = [
     "url": "/img/Chamber_of_coders.143984d3.png"
   },
   {
+    "revision": "7057a9509b1b2f6914df0c9f6c9e7977",
+    "url": "/img/d4.7057a950.png"
+  },
+  {
     "revision": "d7bc260d3a9f5343011180232e5337b5",
     "url": "/img/Order_of_OHMS.d7bc260d.png"
   },
@@ -178,6 +198,10 @@ self.__precacheManifest = [
   {
     "revision": "9c03db0ab9a6cec644ca26a17f810c9d",
     "url": "/img/Azkaban_concept_art.9c03db0a.png"
+  },
+  {
+    "revision": "bc7cc57bdd9c724a8b3c1f439b039131",
+    "url": "/img/d7.bc7cc57b.png"
   },
   {
     "revision": "b18a47a6ec9b22bb8e7d78bc87774309",
@@ -202,6 +226,10 @@ self.__precacheManifest = [
   {
     "revision": "a40c61e75b2dbcdab930d48be1b2d309",
     "url": "/img/logo.a40c61e7.png"
+  },
+  {
+    "revision": "2298cb1b6d3ace9ab0d3238d3d5a0217",
+    "url": "/img/d1.2298cb1b.png"
   },
   {
     "revision": "f24925f355722ea919ad27aa28512a4a",
@@ -232,7 +260,7 @@ self.__precacheManifest = [
     "url": "/img/nametag.ad9ecb7a.png"
   },
   {
-    "revision": "a5fb4b30d22cad34ebd7b3ddc111c331",
+    "revision": "2a88a35a0472cf76bd0872d00d6e8401",
     "url": "/index.html"
   },
   {
@@ -240,7 +268,7 @@ self.__precacheManifest = [
     "url": "/favicon.png"
   },
   {
-    "revision": "5123408a5570f3bd37c6",
-    "url": "/css/app.a69aef92.css"
+    "revision": "d6920d0fe5ecb2995e19",
+    "url": "/css/app.09bec564.css"
   }
 ];

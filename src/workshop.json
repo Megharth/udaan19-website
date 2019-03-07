@@ -16,7 +16,7 @@
     ],
     "tagline": "Hands on workshop",
     "teamSize": 1,
-    "notes": null
+    "notes": "Download python IDE from following link and install it before the workshop.\n\n1) For windows x86 and 64bit os \nhttps://www.python.org/ftp/python/3.7.2/python-3.7.2-amd64.exe \n2) For other os \nhttps://www.python.org/downloads/release/python-372/\n\nConnect your PC with internet and  open command prompt window then You can install packages via commands such as: \npython -m pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose \nWhere user is to be replaced your username \nFully charge your laptop prior to workshop"
   },
   {
     "_id": "5c6ab005a034092f8c482ef6",
@@ -35,7 +35,7 @@
     ],
     "tagline": "Hands on workshop",
     "teamSize": 5,
-    "notes": null
+    "notes": "Software Details:\nhttps://drive.google.com/file/d/1nQg-W9viTYpqL_94ZaXaA4uoe3gl8qRg/view?usp=drivesdk"
   },
   {
     "_id": "5c6ab005a034092f8c482ef6",
@@ -58,6 +58,6 @@
     ],
     "tagline": "Hands on workshop",
     "teamSize": 1,
-    "notes": null
+    "notes": "Topics:\nhttps://drive.google.com/file/d/0B4Cb_VcuHDR-VXFlYjhkcXg0dnJlZTNMUlJFZnpoTVR6aXZv/view?usp=drivesdk"
   }
 ]
