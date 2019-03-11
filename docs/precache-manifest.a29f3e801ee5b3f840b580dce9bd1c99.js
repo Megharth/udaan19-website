@@ -136,8 +136,8 @@ self.__precacheManifest = [
     "url": "/img/Scamander_Suitcase_s.db3dcf53.png"
   },
   {
-    "revision": "d6920d0fe5ecb2995e19",
-    "url": "/js/app.2c809de7.js"
+    "revision": "82d298811112c5e7533e",
+    "url": "/js/app.8963888a.js"
   },
   {
     "revision": "ae2e5c7dacf326bfd3f7",
@@ -260,7 +260,7 @@ self.__precacheManifest = [
     "url": "/img/nametag.ad9ecb7a.png"
   },
   {
-    "revision": "2a88a35a0472cf76bd0872d00d6e8401",
+    "revision": "235a3c1a96f547bd48b0e8bc422c6d65",
     "url": "/index.html"
   },
   {
@@ -268,7 +268,7 @@ self.__precacheManifest = [
     "url": "/favicon.png"
   },
   {
-    "revision": "d6920d0fe5ecb2995e19",
+    "revision": "82d298811112c5e7533e",
     "url": "/css/app.09bec564.css"
   }
 ];

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.5ea4d1b23237e1e21e551237c783f8b6.js"
+  "/precache-manifest.a29f3e801ee5b3f840b580dce9bd1c99.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "udaan19-website"});
